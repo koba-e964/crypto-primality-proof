@@ -43,4 +43,18 @@ func main() {
 			fmt.Println("unmarshalled proof is correct")
 		}
 	}
+	for i := int64(3); i < 100; i++ {
+		cert1, err := primality.Prove(big.NewInt(i))
+		if err != nil {
+			continue
+		}
+		str, err := json.MarshalIndent(cert1, "", "  ")
+		if err != nil {
+			panic(err)
+		}
+		fmt.Println(string(str))
+		if err := cert1.Check(); err != nil {
+			panic(err)
+		}
+	}
 }
