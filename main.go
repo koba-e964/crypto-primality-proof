@@ -11,14 +11,14 @@ import (
 func main() {
 	// https://safecurves.cr.yp.to/proof/257.html
 	cert := primality.Proof{
-		N: big.NewInt(257),
+		N: (*primality.BigInt)(big.NewInt(257)),
 		A: &primality.FactoredInt{
 			Int: (*primality.BigInt)(big.NewInt(256)),
 			Factorization: []primality.FactorEntry{
 				{Prime: (*primality.BigInt)(big.NewInt(2)), Exponent: 8},
 			},
 		},
-		Base: big.NewInt(3),
+		Base: (*primality.BigInt)(big.NewInt(3)),
 		Inverses: []primality.Inverse{
 			{
 				Mod:   (*primality.BigInt)(big.NewInt(257)),

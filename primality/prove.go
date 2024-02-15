@@ -76,9 +76,9 @@ func Prove(n *big.Int) (*Proof, error) {
 	for {
 		if invs, err := checkGen(n, a, base); err == nil {
 			return &Proof{
-				N:        n,
+				N:        (*BigInt)(n),
 				A:        a,
-				Base:     base,
+				Base:     (*BigInt)(base),
 				Inverses: invs,
 			}, nil
 		}

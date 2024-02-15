@@ -31,7 +31,7 @@ func TestInverseCheck(t *testing.T) {
 func TestProofCheck181(t *testing.T) {
 	// https://safecurves.cr.yp.to/proof/181.html
 	cert := Proof{
-		N: big.NewInt(181),
+		N: (*BigInt)(big.NewInt(181)),
 		A: &FactoredInt{
 			Int: (*BigInt)(big.NewInt(45)),
 			Factorization: []FactorEntry{
@@ -39,7 +39,7 @@ func TestProofCheck181(t *testing.T) {
 				{Prime: (*BigInt)(big.NewInt(5)), Exponent: 1},
 			},
 		},
-		Base: big.NewInt(2),
+		Base: (*BigInt)(big.NewInt(2)),
 		Inverses: []Inverse{
 			{
 				Mod:   (*BigInt)(big.NewInt(181)),
@@ -65,14 +65,14 @@ func TestProofCheck181(t *testing.T) {
 
 func TestProofCheck15(t *testing.T) {
 	cert := Proof{
-		N: big.NewInt(15),
+		N: (*BigInt)(big.NewInt(15)),
 		A: &FactoredInt{
 			Int: (*BigInt)(big.NewInt(2)),
 			Factorization: []FactorEntry{
 				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 1},
 			},
 		},
-		Base: big.NewInt(14),
+		Base: (*BigInt)(big.NewInt(14)),
 		Inverses: []Inverse{
 			{
 				Mod:   (*BigInt)(big.NewInt(15)),
@@ -86,14 +86,14 @@ func TestProofCheck15(t *testing.T) {
 
 func TestProofCheck255(t *testing.T) {
 	cert := Proof{
-		N: big.NewInt(255),
+		N: (*BigInt)(big.NewInt(255)),
 		A: &FactoredInt{
 			Int: (*BigInt)(big.NewInt(8)),
 			Factorization: []FactorEntry{
 				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 3},
 			},
 		},
-		Base: big.NewInt(2),
+		Base: (*BigInt)(big.NewInt(2)),
 		Inverses: []Inverse{
 			{
 				Mod:   (*BigInt)(big.NewInt(255)),
@@ -108,14 +108,14 @@ func TestProofCheck255(t *testing.T) {
 func TestProofCheck257(t *testing.T) {
 	// https://safecurves.cr.yp.to/proof/257.html
 	cert := Proof{
-		N: big.NewInt(257),
+		N: (*BigInt)(big.NewInt(257)),
 		A: &FactoredInt{
 			Int: (*BigInt)(big.NewInt(256)),
 			Factorization: []FactorEntry{
 				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 8},
 			},
 		},
-		Base: big.NewInt(3),
+		Base: (*BigInt)(big.NewInt(3)),
 		Inverses: []Inverse{
 			{
 				Mod:   (*BigInt)(big.NewInt(257)),
@@ -135,14 +135,14 @@ func TestProofCheck257(t *testing.T) {
 
 func TestProofCheckInvalidMod(t *testing.T) {
 	cert := Proof{
-		N: big.NewInt(257),
+		N: (*BigInt)(big.NewInt(257)),
 		A: &FactoredInt{
 			Int: (*BigInt)(big.NewInt(256)),
 			Factorization: []FactorEntry{
 				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 8},
 			},
 		},
-		Base: big.NewInt(3),
+		Base: (*BigInt)(big.NewInt(3)),
 		Inverses: []Inverse{
 			{
 				Mod:   (*BigInt)(big.NewInt(4)),
@@ -156,14 +156,14 @@ func TestProofCheckInvalidMod(t *testing.T) {
 
 func TestProofCheckInverseSetNotCorrect(t *testing.T) {
 	cert := Proof{
-		N: big.NewInt(257),
+		N: (*BigInt)(big.NewInt(257)),
 		A: &FactoredInt{
 			Int: (*BigInt)(big.NewInt(256)),
 			Factorization: []FactorEntry{
 				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 8},
 			},
 		},
-		Base: big.NewInt(3),
+		Base: (*BigInt)(big.NewInt(3)),
 		Inverses: []Inverse{
 			{
 				Mod:   (*BigInt)(big.NewInt(257)),

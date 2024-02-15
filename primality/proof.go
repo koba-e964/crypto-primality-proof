@@ -67,9 +67,9 @@ func (i *Inverse) Check() error {
 }
 
 type Proof struct {
-	N        *big.Int     `json:"n"`
+	N        *BigInt      `json:"n"`
 	A        *FactoredInt `json:"a"` // N = A * B
-	Base     *big.Int     `json:"base"`
+	Base     *BigInt      `json:"base"`
 	Inverses []Inverse    `json:"inverses"`
 }
 
@@ -79,8 +79,9 @@ func (p *Proof) Check() error {
 	if err := p.A.Check(); err != nil {
 		return err
 	}
+	N := (*big.Int)(p.N)
 	A := (*big.Int)(p.A.Int)
-	NMinus1 := big.NewInt(0).Sub(p.N, big.NewInt(1))
+	NMinus1 := big.NewInt(0).Sub(N, big.NewInt(1))
 	NModA := big.NewInt(0)
 	NModA.Mod(NMinus1, A)
 	if NModA.Cmp(big.NewInt(0)) != 0 {
@@ -91,7 +92,7 @@ func (p *Proof) Check() error {
 		if err := inv.Check(); err != nil {
 			return err
 		}
-		if (*big.Int)(inv.Mod).Cmp(p.N) != 0 {
+		if (*big.Int)(inv.Mod).Cmp(N) != 0 {
 			return fmt.Errorf("invalid modulus in inverse")
 		}
 		invString := (*big.Int)(inv.Value).String()
@@ -104,9 +105,9 @@ func (p *Proof) Check() error {
 	for _, entry := range p.A.Factorization {
 		pr := (*big.Int)(entry.Prime)
 		exp := big.NewInt(0).Div(NMinus1, pr)
-		value := big.NewInt(0).Exp(p.Base, exp, p.N)
+		value := big.NewInt(0).Exp((*big.Int)(p.Base), exp, N)
 		value.Sub(value, big.NewInt(1))
-		value.Mod(value, p.N)
+		value.Mod(value, N)
 		fromBase[value.String()] = struct{}{}
 	}
 	if !reflect.DeepEqual(fromInverse, fromBase) {
@@ -114,7 +115,7 @@ func (p *Proof) Check() error {
 	}
 	tmp := big.NewInt(0)
 	tmp.Exp(A, big.NewInt(2), nil)
-	if tmp.Cmp(p.N) <= 0 {
+	if tmp.Cmp(N) <= 0 {
 		return fmt.Errorf("A^2 > N must hold")
 	}
 	return nil
