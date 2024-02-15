@@ -2,9 +2,13 @@ package scrape
 
 import (
 	"errors"
+	"io"
 	"math/big"
+	"net/http"
 	"regexp"
+	"strings"
 
+	"github.com/PuerkitoBio/goquery"
 	"github.com/koba-e964/crypto-primality-proof/primality"
 )
 
@@ -17,6 +21,10 @@ var (
 
 var ErrNotANumber = errors.New("not a number")
 
+type RawPrimeProofs struct {
+	Numbers []string
+}
+
 type RawProofPage struct {
 	N        string
 	AExpr    string
@@ -24,7 +32,53 @@ type RawProofPage struct {
 	Inverses [][2]string
 }
 
-func Parse(s string) (*RawProofPage, error) {
+func GetContent(url string) (io.ReadCloser, error) {
+	res, err := http.Get(url)
+	if err != nil {
+		return nil, err
+	}
+	if err != nil {
+		return nil, err
+	}
+	return res.Body, nil
+}
+
+func ParsePrimeProofsPage(reader io.Reader, curveName string) (*RawPrimeProofs, error) {
+	document, err := goquery.NewDocumentFromReader(reader)
+	if err != nil {
+		return nil, err
+	}
+
+	numbers := []string{}
+	document.Find("tbody").Each(func(_ int, s *goquery.Selection) {
+		if len(s.Children().Nodes) >= 2 {
+			s.Find("tr").Each(func(x int, s *goquery.Selection) {
+				data := []string{}
+				links := []string{}
+				s.Find("td").Each(func(x int, s *goquery.Selection) {
+					html, err := s.Html()
+					if err != nil {
+						panic(err)
+					}
+					data = append(data, html)
+					s.Find("a").Each(func(x int, s *goquery.Selection) {
+						linkText := s.Text()
+						links = append(links, linkText)
+					})
+				})
+				if len(data) >= 1 && strings.Contains(data[0], curveName) {
+					numbers = links
+					return
+				}
+			})
+		}
+	})
+	return &RawPrimeProofs{
+		Numbers: numbers,
+	}, nil
+}
+
+func ParseRawProofPage(s string) (*RawProofPage, error) {
 	nString := primalityProof.FindStringSubmatch(s)[1]
 	bString := take.FindStringSubmatch(s)[1]
 	aString := divides.FindStringSubmatch(s)[1]
