@@ -28,6 +28,14 @@ func TestInverseCheck(t *testing.T) {
 	assert.Error(t, inv.Check())
 }
 
+func TestProofCheck2(t *testing.T) {
+	cert := Proof{
+		N: (*BigInt)(big.NewInt(2)),
+	}
+	assert.NoError(t, cert.Check())
+	assert.Len(t, cert.Dep(), 0)
+}
+
 func TestProofCheck181(t *testing.T) {
 	// https://safecurves.cr.yp.to/proof/181.html
 	cert := Proof{

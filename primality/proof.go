@@ -76,10 +76,14 @@ type Proof struct {
 // Check checks the correctness of the proof per se,
 // i.e., it does not check if its dependencies are correct.
 func (p *Proof) Check() error {
+	// if N = 2, N is prime.
+	N := (*big.Int)(p.N)
+	if N.Cmp(big.NewInt(2)) == 0 {
+		return nil
+	}
 	if err := p.A.Check(); err != nil {
 		return err
 	}
-	N := (*big.Int)(p.N)
 	A := (*big.Int)(p.A.Int)
 	NMinus1 := big.NewInt(0).Sub(N, big.NewInt(1))
 	NModA := big.NewInt(0)
@@ -123,6 +127,10 @@ func (p *Proof) Check() error {
 
 // Dep returns the dependencies of the proof.
 func (p *Proof) Dep() []*big.Int {
+	// if N = 2, N is known to be prime and the proof depends on nothing.
+	if (*big.Int)(p.N).Cmp(big.NewInt(2)) == 0 {
+		return nil
+	}
 	deps := []*big.Int{}
 	for _, entry := range p.A.Factorization {
 		deps = append(deps, (*big.Int)(entry.Prime))
