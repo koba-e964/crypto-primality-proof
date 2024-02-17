@@ -14,6 +14,7 @@ import (
 
 var (
 	primalityProof = regexp.MustCompile(`Primality proof for n = (\d+):`)
+	twoProof       = regexp.MustCompile(`^2 is prime.`)
 	take           = regexp.MustCompile(`Take b = (\d+).`)
 	divides        = regexp.MustCompile(`\((.+)\) divides n-1.`)
 	inv            = regexp.MustCompile(`n = (\d+), which is a unit, inverse (\d+).`)
@@ -22,7 +23,9 @@ var (
 var ErrNotANumber = errors.New("not a number")
 
 type RawPrimeProofs struct {
-	Numbers []string
+	CurveName string
+	Numbers   []string
+	Subpages  []RawProofPage
 }
 
 type RawProofPage struct {
@@ -43,6 +46,42 @@ func GetContent(url string) (io.ReadCloser, error) {
 	return res.Body, nil
 }
 
+// ReadPrimeProofsPage reads the prime proofs page and returns proofs for the specified curve.
+// urlBase should be like "https://safecurves.cr.yp.to"
+func ReadPrimeProofsPage(urlBase string, curveName string) (*RawPrimeProofs, error) {
+	reader, err := GetContent(urlBase + "/primeproofs.html")
+	if err != nil {
+		return nil, err
+	}
+	defer reader.Close()
+	proofs, err := ParsePrimeProofsPage(reader, curveName)
+	if err != nil {
+		return nil, err
+	}
+	// read subpages
+	for _, number := range proofs.Numbers {
+		subUrl := urlBase + "/proof/" + number + ".html"
+		subReader, err := GetContent(subUrl)
+		if err != nil {
+			return nil, err
+		}
+		buf := new(strings.Builder)
+		if _, err := io.Copy(buf, subReader); err != nil {
+			return nil, err
+		}
+		subReader.Close()
+		subProof, err := ParseRawProofPage(buf.String())
+		if err != nil {
+			return nil, err
+		}
+		proofs.Subpages = append(proofs.Subpages, *subProof)
+	}
+
+	return proofs, nil
+}
+
+// ParsePrimeProofsPage parses the prime proofs page and returns numbers used for the specified curve.
+// Subpages are not read.
 func ParsePrimeProofsPage(reader io.Reader, curveName string) (*RawPrimeProofs, error) {
 	document, err := goquery.NewDocumentFromReader(reader)
 	if err != nil {
@@ -78,7 +117,26 @@ func ParsePrimeProofsPage(reader io.Reader, curveName string) (*RawPrimeProofs, 
 	}, nil
 }
 
+func (r *RawPrimeProofs) Translate() (*primality.Registry, error) {
+	reg := primality.Registry{
+		Proofs: make([]primality.Proof, 0, len(r.Numbers)),
+	}
+	for _, subpage := range r.Subpages {
+		proof, err := subpage.Translate()
+		if err != nil {
+			return nil, err
+		}
+		reg.Proofs = append(reg.Proofs, *proof)
+	}
+	return &reg, nil
+}
+
 func ParseRawProofPage(s string) (*RawProofPage, error) {
+	if twoProof.MatchString(s) {
+		return &RawProofPage{
+			N: "2",
+		}, nil
+	}
 	nString := primalityProof.FindStringSubmatch(s)[1]
 	bString := take.FindStringSubmatch(s)[1]
 	aString := divides.FindStringSubmatch(s)[1]
@@ -97,6 +155,10 @@ func ParseRawProofPage(s string) (*RawProofPage, error) {
 
 func (r *RawProofPage) Translate() (*primality.Proof, error) {
 	var p primality.Proof
+	if r.N == "2" {
+		p.N = (*primality.BigInt)(big.NewInt(2))
+		return &p, nil
+	}
 	n, ok := new(big.Int).SetString(r.N, 10)
 	if !ok {
 		return nil, ErrNotANumber

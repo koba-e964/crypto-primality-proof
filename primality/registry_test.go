@@ -63,5 +63,5 @@ func TestRegistryCheckInsufficient(t *testing.T) {
 	registry := &Registry{
 		Proofs: []Proof{cert},
 	}
-	assert.Equal(t, ErrMissingDependency, registry.Check())
+	assert.Contains(t, registry.Check().Error(), ErrMissingDependency.Error())
 }

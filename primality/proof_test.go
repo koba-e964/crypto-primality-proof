@@ -110,7 +110,7 @@ func TestProofCheck255(t *testing.T) {
 			},
 		},
 	}
-	assert.EqualError(t, cert.Check(), "pocklington: N-1 is not divisible by A")
+	assert.Contains(t, cert.Check().Error(), "pocklington: N-1 is not divisible by A")
 }
 
 func TestProofCheck257(t *testing.T) {

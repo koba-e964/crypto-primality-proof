@@ -31,7 +31,7 @@ func parseExpr(s string) (int, *primality.FactoredInt, error) {
 			return i + j, nil, err
 		}
 		return i + j, &primality.FactoredInt{
-			Int:           (*primality.BigInt)(value.Mul(value, (*big.Int)(expr.Int))),
+			Int:           (*primality.BigInt)(new(big.Int).Mul(value, (*big.Int)(expr.Int))),
 			Factorization: append([]primality.FactorEntry{pow}, expr.Factorization...),
 		}, nil
 	}

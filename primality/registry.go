@@ -2,6 +2,7 @@ package primality
 
 import (
 	"errors"
+	"fmt"
 	"math/big"
 )
 
@@ -25,7 +26,7 @@ func (r *Registry) Check() error {
 		dep := proof.Dep()
 		for _, d := range dep {
 			if _, ok := seen[d.String()]; !ok {
-				return ErrMissingDependency
+				return errors.Join(fmt.Errorf("error in verifying %s (missing dependency: %s)", (*big.Int)(proof.N).String(), d.String()), ErrMissingDependency)
 			}
 		}
 	}

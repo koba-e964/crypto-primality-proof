@@ -1,0 +1,3493 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "3",
+      "a": {
+        "int": "2",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "3",
+          "value": "1",
+          "inv": "1"
+        }
+      ]
+    },
+    {
+      "n": "5",
+      "a": {
+        "int": "4",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 2
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "5",
+          "value": "3",
+          "inv": "2"
+        }
+      ]
+    },
+    {
+      "n": "7",
+      "a": {
+        "int": "3",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "7",
+          "value": "3",
+          "inv": "5"
+        }
+      ]
+    },
+    {
+      "n": "11",
+      "a": {
+        "int": "5",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "11",
+          "value": "3",
+          "inv": "4"
+        }
+      ]
+    },
+    {
+      "n": "13",
+      "a": {
+        "int": "12",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 2
+          },
+          {
+            "prime": "3",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "13",
+          "value": "2",
+          "inv": "7"
+        },
+        {
+          "mod": "13",
+          "value": "11",
+          "inv": "6"
+        }
+      ]
+    },
+    {
+      "n": "17",
+      "a": {
+        "int": "16",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 4
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "17",
+          "value": "15",
+          "inv": "8"
+        }
+      ]
+    },
+    {
+      "n": "19",
+      "a": {
+        "int": "9",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 2
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "19",
+          "value": "6",
+          "inv": "16"
+        }
+      ]
+    },
+    {
+      "n": "23",
+      "a": {
+        "int": "11",
+        "factorization": [
+          {
+            "prime": "11",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "23",
+          "value": "3",
+          "inv": "8"
+        }
+      ]
+    },
+    {
+      "n": "29",
+      "a": {
+        "int": "7",
+        "factorization": [
+          {
+            "prime": "7",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "29",
+          "value": "15",
+          "inv": "2"
+        }
+      ]
+    },
+    {
+      "n": "31",
+      "a": {
+        "int": "15",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 1
+          },
+          {
+            "prime": "5",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "31",
+          "value": "15",
+          "inv": "29"
+        },
+        {
+          "mod": "31",
+          "value": "24",
+          "inv": "22"
+        }
+      ]
+    },
+    {
+      "n": "37",
+      "a": {
+        "int": "9",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 2
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "37",
+          "value": "25",
+          "inv": "3"
+        }
+      ]
+    },
+    {
+      "n": "41",
+      "a": {
+        "int": "8",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 3
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "41",
+          "value": "39",
+          "inv": "20"
+        }
+      ]
+    },
+    {
+      "n": "43",
+      "a": {
+        "int": "7",
+        "factorization": [
+          {
+            "prime": "7",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "43",
+          "value": "20",
+          "inv": "28"
+        }
+      ]
+    },
+    {
+      "n": "47",
+      "a": {
+        "int": "23",
+        "factorization": [
+          {
+            "prime": "23",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "47",
+          "value": "3",
+          "inv": "16"
+        }
+      ]
+    },
+    {
+      "n": "53",
+      "a": {
+        "int": "13",
+        "factorization": [
+          {
+            "prime": "13",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "53",
+          "value": "15",
+          "inv": "46"
+        }
+      ]
+    },
+    {
+      "n": "59",
+      "a": {
+        "int": "29",
+        "factorization": [
+          {
+            "prime": "29",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "59",
+          "value": "3",
+          "inv": "20"
+        }
+      ]
+    },
+    {
+      "n": "61",
+      "a": {
+        "int": "15",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 1
+          },
+          {
+            "prime": "5",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "61",
+          "value": "8",
+          "inv": "23"
+        },
+        {
+          "mod": "61",
+          "value": "46",
+          "inv": "4"
+        }
+      ]
+    },
+    {
+      "n": "67",
+      "a": {
+        "int": "11",
+        "factorization": [
+          {
+            "prime": "11",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "67",
+          "value": "63",
+          "inv": "50"
+        }
+      ]
+    },
+    {
+      "n": "73",
+      "a": {
+        "int": "9",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 2
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "73",
+          "value": "63",
+          "inv": "51"
+        }
+      ]
+    },
+    {
+      "n": "79",
+      "a": {
+        "int": "13",
+        "factorization": [
+          {
+            "prime": "13",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "79",
+          "value": "63",
+          "inv": "74"
+        }
+      ]
+    },
+    {
+      "n": "83",
+      "a": {
+        "int": "41",
+        "factorization": [
+          {
+            "prime": "41",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "83",
+          "value": "3",
+          "inv": "28"
+        }
+      ]
+    },
+    {
+      "n": "97",
+      "a": {
+        "int": "96",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 5
+          },
+          {
+            "prime": "3",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "5",
+      "inverses": [
+        {
+          "mod": "97",
+          "value": "34",
+          "inv": "20"
+        },
+        {
+          "mod": "97",
+          "value": "95",
+          "inv": "48"
+        }
+      ]
+    },
+    {
+      "n": "101",
+      "a": {
+        "int": "25",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 2
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "101",
+          "value": "94",
+          "inv": "72"
+        }
+      ]
+    },
+    {
+      "n": "103",
+      "a": {
+        "int": "17",
+        "factorization": [
+          {
+            "prime": "17",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "103",
+          "value": "63",
+          "inv": "18"
+        }
+      ]
+    },
+    {
+      "n": "107",
+      "a": {
+        "int": "53",
+        "factorization": [
+          {
+            "prime": "53",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "107",
+          "value": "3",
+          "inv": "36"
+        }
+      ]
+    },
+    {
+      "n": "109",
+      "a": {
+        "int": "27",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 3
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "109",
+          "value": "62",
+          "inv": "51"
+        }
+      ]
+    },
+    {
+      "n": "113",
+      "a": {
+        "int": "112",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 4
+          },
+          {
+            "prime": "7",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "113",
+          "value": "48",
+          "inv": "73"
+        },
+        {
+          "mod": "113",
+          "value": "111",
+          "inv": "56"
+        }
+      ]
+    },
+    {
+      "n": "127",
+      "a": {
+        "int": "63",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 2
+          },
+          {
+            "prime": "7",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "127",
+          "value": "3",
+          "inv": "85"
+        },
+        {
+          "mod": "127",
+          "value": "106",
+          "inv": "6"
+        }
+      ]
+    },
+    {
+      "n": "131",
+      "a": {
+        "int": "13",
+        "factorization": [
+          {
+            "prime": "13",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "131",
+          "value": "106",
+          "inv": "110"
+        }
+      ]
+    },
+    {
+      "n": "139",
+      "a": {
+        "int": "23",
+        "factorization": [
+          {
+            "prime": "23",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "139",
+          "value": "63",
+          "inv": "64"
+        }
+      ]
+    },
+    {
+      "n": "151",
+      "a": {
+        "int": "25",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 2
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "151",
+          "value": "58",
+          "inv": "138"
+        }
+      ]
+    },
+    {
+      "n": "163",
+      "a": {
+        "int": "81",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 4
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "163",
+          "value": "103",
+          "inv": "19"
+        }
+      ]
+    },
+    {
+      "n": "173",
+      "a": {
+        "int": "43",
+        "factorization": [
+          {
+            "prime": "43",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "173",
+          "value": "15",
+          "inv": "150"
+        }
+      ]
+    },
+    {
+      "n": "181",
+      "a": {
+        "int": "45",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 2
+          },
+          {
+            "prime": "5",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "181",
+          "value": "58",
+          "inv": "103"
+        },
+        {
+          "mod": "181",
+          "value": "47",
+          "inv": "104"
+        }
+      ]
+    },
+    {
+      "n": "191",
+      "a": {
+        "int": "19",
+        "factorization": [
+          {
+            "prime": "19",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "191",
+          "value": "68",
+          "inv": "59"
+        }
+      ]
+    },
+    {
+      "n": "223",
+      "a": {
+        "int": "37",
+        "factorization": [
+          {
+            "prime": "37",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "223",
+          "value": "63",
+          "inv": "177"
+        }
+      ]
+    },
+    {
+      "n": "227",
+      "a": {
+        "int": "113",
+        "factorization": [
+          {
+            "prime": "113",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "227",
+          "value": "3",
+          "inv": "76"
+        }
+      ]
+    },
+    {
+      "n": "233",
+      "a": {
+        "int": "29",
+        "factorization": [
+          {
+            "prime": "29",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "233",
+          "value": "22",
+          "inv": "53"
+        }
+      ]
+    },
+    {
+      "n": "239",
+      "a": {
+        "int": "17",
+        "factorization": [
+          {
+            "prime": "17",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "239",
+          "value": "131",
+          "inv": "104"
+        }
+      ]
+    },
+    {
+      "n": "251",
+      "a": {
+        "int": "125",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 3
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "251",
+          "value": "218",
+          "inv": "38"
+        }
+      ]
+    },
+    {
+      "n": "269",
+      "a": {
+        "int": "67",
+        "factorization": [
+          {
+            "prime": "67",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "269",
+          "value": "15",
+          "inv": "18"
+        }
+      ]
+    },
+    {
+      "n": "307",
+      "a": {
+        "int": "34",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 1
+          },
+          {
+            "prime": "17",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "307",
+          "value": "272",
+          "inv": "114"
+        },
+        {
+          "mod": "307",
+          "value": "305",
+          "inv": "153"
+        }
+      ]
+    },
+    {
+      "n": "353",
+      "a": {
+        "int": "352",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 5
+          },
+          {
+            "prime": "11",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "353",
+          "value": "139",
+          "inv": "160"
+        },
+        {
+          "mod": "353",
+          "value": "351",
+          "inv": "176"
+        }
+      ]
+    },
+    {
+      "n": "383",
+      "a": {
+        "int": "191",
+        "factorization": [
+          {
+            "prime": "191",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "383",
+          "value": "3",
+          "inv": "128"
+        }
+      ]
+    },
+    {
+      "n": "419",
+      "a": {
+        "int": "209",
+        "factorization": [
+          {
+            "prime": "11",
+            "exponent": 1
+          },
+          {
+            "prime": "19",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "419",
+          "value": "113",
+          "inv": "89"
+        },
+        {
+          "mod": "419",
+          "value": "333",
+          "inv": "190"
+        }
+      ]
+    },
+    {
+      "n": "457",
+      "a": {
+        "int": "57",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 1
+          },
+          {
+            "prime": "19",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "3",
+      "inverses": [
+        {
+          "mod": "457",
+          "value": "214",
+          "inv": "126"
+        },
+        {
+          "mod": "457",
+          "value": "322",
+          "inv": "44"
+        }
+      ]
+    },
+    {
+      "n": "467",
+      "a": {
+        "int": "233",
+        "factorization": [
+          {
+            "prime": "233",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "467",
+          "value": "3",
+          "inv": "156"
+        }
+      ]
+    },
+    {
+      "n": "479",
+      "a": {
+        "int": "239",
+        "factorization": [
+          {
+            "prime": "239",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "479",
+          "value": "3",
+          "inv": "160"
+        }
+      ]
+    },
+    {
+      "n": "487",
+      "a": {
+        "int": "243",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 5
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "487",
+          "value": "231",
+          "inv": "409"
+        }
+      ]
+    },
+    {
+      "n": "503",
+      "a": {
+        "int": "251",
+        "factorization": [
+          {
+            "prime": "251",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "503",
+          "value": "3",
+          "inv": "168"
+        }
+      ]
+    },
+    {
+      "n": "727",
+      "a": {
+        "int": "121",
+        "factorization": [
+          {
+            "prime": "11",
+            "exponent": 2
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "727",
+          "value": "589",
+          "inv": "511"
+        }
+      ]
+    },
+    {
+      "n": "991",
+      "a": {
+        "int": "55",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 1
+          },
+          {
+            "prime": "11",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "991",
+          "value": "49",
+          "inv": "809"
+        },
+        {
+          "mod": "991",
+          "value": "798",
+          "inv": "267"
+        }
+      ]
+    },
+    {
+      "n": "1361",
+      "a": {
+        "int": "85",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 1
+          },
+          {
+            "prime": "17",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "1361",
+          "value": "315",
+          "inv": "795"
+        },
+        {
+          "mod": "1361",
+          "value": "210",
+          "inv": "512"
+        }
+      ]
+    },
+    {
+      "n": "1723",
+      "a": {
+        "int": "287",
+        "factorization": [
+          {
+            "prime": "7",
+            "exponent": 1
+          },
+          {
+            "prime": "41",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "1723",
+          "value": "923",
+          "inv": "1695"
+        },
+        {
+          "mod": "1723",
+          "value": "316",
+          "inv": "747"
+        }
+      ]
+    },
+    {
+      "n": "2281",
+      "a": {
+        "int": "95",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 1
+          },
+          {
+            "prime": "19",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "2281",
+          "value": "1358",
+          "inv": "1248"
+        },
+        {
+          "mod": "2281",
+          "value": "1513",
+          "inv": "1785"
+        }
+      ]
+    },
+    {
+      "n": "2437",
+      "a": {
+        "int": "203",
+        "factorization": [
+          {
+            "prime": "7",
+            "exponent": 1
+          },
+          {
+            "prime": "29",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "2437",
+          "value": "432",
+          "inv": "739"
+        },
+        {
+          "mod": "2437",
+          "value": "800",
+          "inv": "1910"
+        }
+      ]
+    },
+    {
+      "n": "2551",
+      "a": {
+        "int": "425",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 2
+          },
+          {
+            "prime": "17",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "2551",
+          "value": "2088",
+          "inv": "1135"
+        },
+        {
+          "mod": "2551",
+          "value": "1500",
+          "inv": "1784"
+        }
+      ]
+    },
+    {
+      "n": "2791",
+      "a": {
+        "int": "155",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 1
+          },
+          {
+            "prime": "31",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "2791",
+          "value": "99",
+          "inv": "733"
+        },
+        {
+          "mod": "2791",
+          "value": "799",
+          "inv": "1523"
+        }
+      ]
+    },
+    {
+      "n": "2851",
+      "a": {
+        "int": "475",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 2
+          },
+          {
+            "prime": "19",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "2851",
+          "value": "2823",
+          "inv": "1120"
+        },
+        {
+          "mod": "2851",
+          "value": "2743",
+          "inv": "2719"
+        }
+      ]
+    },
+    {
+      "n": "2939",
+      "a": {
+        "int": "113",
+        "factorization": [
+          {
+            "prime": "113",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "2939",
+          "value": "2676",
+          "inv": "2492"
+        }
+      ]
+    },
+    {
+      "n": "3637",
+      "a": {
+        "int": "101",
+        "factorization": [
+          {
+            "prime": "101",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "3637",
+          "value": "2022",
+          "inv": "840"
+        }
+      ]
+    },
+    {
+      "n": "3727",
+      "a": {
+        "int": "1863",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 4
+          },
+          {
+            "prime": "23",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "3727",
+          "value": "438",
+          "inv": "3259"
+        },
+        {
+          "mod": "3727",
+          "value": "1187",
+          "inv": "2088"
+        }
+      ]
+    },
+    {
+      "n": "3797",
+      "a": {
+        "int": "73",
+        "factorization": [
+          {
+            "prime": "73",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "3797",
+          "value": "3564",
+          "inv": "3357"
+        }
+      ]
+    },
+    {
+      "n": "3911",
+      "a": {
+        "int": "391",
+        "factorization": [
+          {
+            "prime": "17",
+            "exponent": 1
+          },
+          {
+            "prime": "23",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "3911",
+          "value": "990",
+          "inv": "3512"
+        },
+        {
+          "mod": "3911",
+          "value": "554",
+          "inv": "1659"
+        }
+      ]
+    },
+    {
+      "n": "4153",
+      "a": {
+        "int": "173",
+        "factorization": [
+          {
+            "prime": "173",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "4153",
+          "value": "3248",
+          "inv": "3405"
+        }
+      ]
+    },
+    {
+      "n": "4363",
+      "a": {
+        "int": "727",
+        "factorization": [
+          {
+            "prime": "727",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "4363",
+          "value": "63",
+          "inv": "4086"
+        }
+      ]
+    },
+    {
+      "n": "5879",
+      "a": {
+        "int": "2939",
+        "factorization": [
+          {
+            "prime": "2939",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "5879",
+          "value": "3",
+          "inv": "1960"
+        }
+      ]
+    },
+    {
+      "n": "6211",
+      "a": {
+        "int": "115",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 1
+          },
+          {
+            "prime": "23",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "6211",
+          "value": "679",
+          "inv": "1180"
+        },
+        {
+          "mod": "6211",
+          "value": "3984",
+          "inv": "4797"
+        }
+      ]
+    },
+    {
+      "n": "6263",
+      "a": {
+        "int": "101",
+        "factorization": [
+          {
+            "prime": "101",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "6263",
+          "value": "2316",
+          "inv": "6071"
+        }
+      ]
+    },
+    {
+      "n": "7229",
+      "a": {
+        "int": "139",
+        "factorization": [
+          {
+            "prime": "139",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "7229",
+          "value": "2283",
+          "inv": "2416"
+        }
+      ]
+    },
+    {
+      "n": "8053",
+      "a": {
+        "int": "671",
+        "factorization": [
+          {
+            "prime": "11",
+            "exponent": 1
+          },
+          {
+            "prime": "61",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "8053",
+          "value": "6693",
+          "inv": "5193"
+        },
+        {
+          "mod": "8053",
+          "value": "2179",
+          "inv": "1992"
+        }
+      ]
+    },
+    {
+      "n": "9463",
+      "a": {
+        "int": "1577",
+        "factorization": [
+          {
+            "prime": "19",
+            "exponent": 1
+          },
+          {
+            "prime": "83",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "9463",
+          "value": "6022",
+          "inv": "11"
+        },
+        {
+          "mod": "9463",
+          "value": "6271",
+          "inv": "9128"
+        }
+      ]
+    },
+    {
+      "n": "11351",
+      "a": {
+        "int": "227",
+        "factorization": [
+          {
+            "prime": "227",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "11351",
+          "value": "6858",
+          "inv": "4550"
+        }
+      ]
+    },
+    {
+      "n": "12527",
+      "a": {
+        "int": "6263",
+        "factorization": [
+          {
+            "prime": "6263",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "12527",
+          "value": "3",
+          "inv": "4176"
+        }
+      ]
+    },
+    {
+      "n": "14851",
+      "a": {
+        "int": "275",
+        "factorization": [
+          {
+            "prime": "5",
+            "exponent": 2
+          },
+          {
+            "prime": "11",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "14851",
+          "value": "10518",
+          "inv": "14426"
+        },
+        {
+          "mod": "14851",
+          "value": "7926",
+          "inv": "9599"
+        }
+      ]
+    },
+    {
+      "n": "15101",
+      "a": {
+        "int": "151",
+        "factorization": [
+          {
+            "prime": "151",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "15101",
+          "value": "9999",
+          "inv": "7219"
+        }
+      ]
+    },
+    {
+      "n": "16451",
+      "a": {
+        "int": "329",
+        "factorization": [
+          {
+            "prime": "7",
+            "exponent": 1
+          },
+          {
+            "prime": "47",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "16451",
+          "value": "5824",
+          "inv": "1144"
+        },
+        {
+          "mod": "16451",
+          "value": "2450",
+          "inv": "11744"
+        }
+      ]
+    },
+    {
+      "n": "17231",
+      "a": {
+        "int": "1723",
+        "factorization": [
+          {
+            "prime": "1723",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "17231",
+          "value": "1023",
+          "inv": "3554"
+        }
+      ]
+    },
+    {
+      "n": "17659",
+      "a": {
+        "int": "218",
+        "factorization": [
+          {
+            "prime": "2",
+            "exponent": 1
+          },
+          {
+            "prime": "109",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "17659",
+          "value": "17445",
+          "inv": "2228"
+        },
+        {
+          "mod": "17659",
+          "value": "17657",
+          "inv": "8829"
+        }
+      ]
+    },
+    {
+      "n": "22111",
+      "a": {
+        "int": "201",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 1
+          },
+          {
+            "prime": "67",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "22111",
+          "value": "12682",
+          "inv": "21642"
+        },
+        {
+          "mod": "22111",
+          "value": "7857",
+          "inv": "19491"
+        }
+      ]
+    },
+    {
+      "n": "28859",
+      "a": {
+        "int": "307",
+        "factorization": [
+          {
+            "prime": "307",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "28859",
+          "value": "16876",
+          "inv": "24695"
+        }
+      ]
+    },
+    {
+      "n": "30203",
+      "a": {
+        "int": "15101",
+        "factorization": [
+          {
+            "prime": "15101",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "30203",
+          "value": "3",
+          "inv": "10068"
+        }
+      ]
+    },
+    {
+      "n": "30703",
+      "a": {
+        "int": "731",
+        "factorization": [
+          {
+            "prime": "17",
+            "exponent": 1
+          },
+          {
+            "prime": "43",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "30703",
+          "value": "27519",
+          "inv": "15419"
+        },
+        {
+          "mod": "30703",
+          "value": "24291",
+          "inv": "22060"
+        }
+      ]
+    },
+    {
+      "n": "32573",
+      "a": {
+        "int": "479",
+        "factorization": [
+          {
+            "prime": "479",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "32573",
+          "value": "10720",
+          "inv": "30759"
+        }
+      ]
+    },
+    {
+      "n": "34123",
+      "a": {
+        "int": "5687",
+        "factorization": [
+          {
+            "prime": "11",
+            "exponent": 2
+          },
+          {
+            "prime": "47",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "34123",
+          "value": "30028",
+          "inv": "5683"
+        },
+        {
+          "mod": "34123",
+          "value": "30210",
+          "inv": "8328"
+        }
+      ]
+    },
+    {
+      "n": "34217",
+      "a": {
+        "int": "611",
+        "factorization": [
+          {
+            "prime": "13",
+            "exponent": 1
+          },
+          {
+            "prime": "47",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "34217",
+          "value": "3451",
+          "inv": "33166"
+        },
+        {
+          "mod": "34217",
+          "value": "24206",
+          "inv": "5144"
+        }
+      ]
+    },
+    {
+      "n": "37853",
+      "a": {
+        "int": "9463",
+        "factorization": [
+          {
+            "prime": "9463",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "37853",
+          "value": "15",
+          "inv": "32806"
+        }
+      ]
+    },
+    {
+      "n": "41081",
+      "a": {
+        "int": "1027",
+        "factorization": [
+          {
+            "prime": "13",
+            "exponent": 1
+          },
+          {
+            "prime": "79",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "41081",
+          "value": "6276",
+          "inv": "10807"
+        },
+        {
+          "mod": "41081",
+          "value": "32464",
+          "inv": "20438"
+        }
+      ]
+    },
+    {
+      "n": "57467",
+      "a": {
+        "int": "487",
+        "factorization": [
+          {
+            "prime": "487",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "57467",
+          "value": "17138",
+          "inv": "56679"
+        }
+      ]
+    },
+    {
+      "n": "65147",
+      "a": {
+        "int": "32573",
+        "factorization": [
+          {
+            "prime": "32573",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "65147",
+          "value": "3",
+          "inv": "21716"
+        }
+      ]
+    },
+    {
+      "n": "75707",
+      "a": {
+        "int": "37853",
+        "factorization": [
+          {
+            "prime": "37853",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "75707",
+          "value": "3",
+          "inv": "25236"
+        }
+      ]
+    },
+    {
+      "n": "82163",
+      "a": {
+        "int": "41081",
+        "factorization": [
+          {
+            "prime": "41081",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "82163",
+          "value": "3",
+          "inv": "27388"
+        }
+      ]
+    },
+    {
+      "n": "84457",
+      "a": {
+        "int": "391",
+        "factorization": [
+          {
+            "prime": "17",
+            "exponent": 1
+          },
+          {
+            "prime": "23",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "84457",
+          "value": "61693",
+          "inv": "1651"
+        },
+        {
+          "mod": "84457",
+          "value": "75227",
+          "inv": "52367"
+        }
+      ]
+    },
+    {
+      "n": "117223",
+      "a": {
+        "int": "2791",
+        "factorization": [
+          {
+            "prime": "2791",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "117223",
+          "value": "29390",
+          "inv": "110614"
+        }
+      ]
+    },
+    {
+      "n": "132049",
+      "a": {
+        "int": "917",
+        "factorization": [
+          {
+            "prime": "7",
+            "exponent": 1
+          },
+          {
+            "prime": "131",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "132049",
+          "value": "44008",
+          "inv": "116203"
+        },
+        {
+          "mod": "132049",
+          "value": "31671",
+          "inv": "110168"
+        }
+      ]
+    },
+    {
+      "n": "132667",
+      "a": {
+        "int": "22111",
+        "factorization": [
+          {
+            "prime": "22111",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "132667",
+          "value": "63",
+          "inv": "48434"
+        }
+      ]
+    },
+    {
+      "n": "137849",
+      "a": {
+        "int": "17231",
+        "factorization": [
+          {
+            "prime": "17231",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "137849",
+          "value": "255",
+          "inv": "89737"
+        }
+      ]
+    },
+    {
+      "n": "173497",
+      "a": {
+        "int": "7229",
+        "factorization": [
+          {
+            "prime": "7229",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "173497",
+          "value": "121503",
+          "inv": "45972"
+        }
+      ]
+    },
+    {
+      "n": "196993",
+      "a": {
+        "int": "1539",
+        "factorization": [
+          {
+            "prime": "3",
+            "exponent": 4
+          },
+          {
+            "prime": "19",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "196993",
+          "value": "195104",
+          "inv": "82906"
+        },
+        {
+          "mod": "196993",
+          "value": "111667",
+          "inv": "28441"
+        }
+      ]
+    },
+    {
+      "n": "208393",
+      "a": {
+        "int": "457",
+        "factorization": [
+          {
+            "prime": "457",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "208393",
+          "value": "25691",
+          "inv": "50989"
+        }
+      ]
+    },
+    {
+      "n": "372661",
+      "a": {
+        "int": "6211",
+        "factorization": [
+          {
+            "prime": "6211",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "372661",
+          "value": "123811",
+          "inv": "297097"
+        }
+      ]
+    },
+    {
+      "n": "409477",
+      "a": {
+        "int": "34123",
+        "factorization": [
+          {
+            "prime": "34123",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "409477",
+          "value": "4095",
+          "inv": "391678"
+        }
+      ]
+    },
+    {
+      "n": "430751",
+      "a": {
+        "int": "1723",
+        "factorization": [
+          {
+            "prime": "1723",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "430751",
+          "value": "293175",
+          "inv": "198753"
+        }
+      ]
+    },
+    {
+      "n": "531581",
+      "a": {
+        "int": "3797",
+        "factorization": [
+          {
+            "prime": "3797",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "531581",
+          "value": "32300",
+          "inv": "50673"
+        }
+      ]
+    },
+    {
+      "n": "569003",
+      "a": {
+        "int": "40643",
+        "factorization": [
+          {
+            "prime": "97",
+            "exponent": 1
+          },
+          {
+            "prime": "419",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "569003",
+          "value": "236159",
+          "inv": "533245"
+        },
+        {
+          "mod": "569003",
+          "value": "439587",
+          "inv": "345875"
+        }
+      ]
+    },
+    {
+      "n": "693989",
+      "a": {
+        "int": "173497",
+        "factorization": [
+          {
+            "prime": "173497",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "693989",
+          "value": "15",
+          "inv": "46266"
+        }
+      ]
+    },
+    {
+      "n": "727169",
+      "a": {
+        "int": "5681",
+        "factorization": [
+          {
+            "prime": "13",
+            "exponent": 1
+          },
+          {
+            "prime": "19",
+            "exponent": 1
+          },
+          {
+            "prime": "23",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "727169",
+          "value": "363871",
+          "inv": "227161"
+        },
+        {
+          "mod": "727169",
+          "value": "126065",
+          "inv": "189376"
+        },
+        {
+          "mod": "727169",
+          "value": "460982",
+          "inv": "337377"
+        }
+      ]
+    },
+    {
+      "n": "1224481",
+      "a": {
+        "int": "2551",
+        "factorization": [
+          {
+            "prime": "2551",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "1224481",
+          "value": "921658",
+          "inv": "1100631"
+        }
+      ]
+    },
+    {
+      "n": "1923133",
+      "a": {
+        "int": "3727",
+        "factorization": [
+          {
+            "prime": "3727",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "1923133",
+          "value": "740011",
+          "inv": "1677051"
+        }
+      ]
+    },
+    {
+      "n": "5859383",
+      "a": {
+        "int": "30203",
+        "factorization": [
+          {
+            "prime": "30203",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "5859383",
+          "value": "62169",
+          "inv": "679820"
+        }
+      ]
+    },
+    {
+      "n": "6418733",
+      "a": {
+        "int": "84457",
+        "factorization": [
+          {
+            "prime": "84457",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "6418733",
+          "value": "2105383",
+          "inv": "1942126"
+        }
+      ]
+    },
+    {
+      "n": "8574133",
+      "a": {
+        "int": "102073",
+        "factorization": [
+          {
+            "prime": "103",
+            "exponent": 1
+          },
+          {
+            "prime": "991",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "8574133",
+          "value": "3435728",
+          "inv": "1014251"
+        },
+        {
+          "mod": "8574133",
+          "value": "4321356",
+          "inv": "3531099"
+        }
+      ]
+    },
+    {
+      "n": "14741173",
+      "a": {
+        "int": "409477",
+        "factorization": [
+          {
+            "prime": "409477",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "14741173",
+          "value": "10869382",
+          "inv": "3061083"
+        }
+      ]
+    },
+    {
+      "n": "58964693",
+      "a": {
+        "int": "14741173",
+        "factorization": [
+          {
+            "prime": "14741173",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "58964693",
+          "value": "15",
+          "inv": "51102734"
+        }
+      ]
+    },
+    {
+      "n": "122232809",
+      "a": {
+        "int": "372661",
+        "factorization": [
+          {
+            "prime": "372661",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "122232809",
+          "value": "565082",
+          "inv": "39762295"
+        }
+      ]
+    },
+    {
+      "n": "150381227",
+      "a": {
+        "int": "14851",
+        "factorization": [
+          {
+            "prime": "14851",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "150381227",
+          "value": "119394691",
+          "inv": "83827290"
+        }
+      ]
+    },
+    {
+      "n": "292386187",
+      "a": {
+        "int": "1804853",
+        "factorization": [
+          {
+            "prime": "307",
+            "exponent": 1
+          },
+          {
+            "prime": "5879",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "292386187",
+          "value": "130453607",
+          "inv": "4206811"
+        },
+        {
+          "mod": "292386187",
+          "value": "114336306",
+          "inv": "283400995"
+        }
+      ]
+    },
+    {
+      "n": "743104567",
+      "a": {
+        "int": "41283587",
+        "factorization": [
+          {
+            "prime": "3637",
+            "exponent": 1
+          },
+          {
+            "prime": "11351",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "743104567",
+          "value": "586497401",
+          "inv": "39408624"
+        },
+        {
+          "mod": "743104567",
+          "value": "200893089",
+          "inv": "444174805"
+        }
+      ]
+    },
+    {
+      "n": "1019532643",
+      "a": {
+        "int": "5859383",
+        "factorization": [
+          {
+            "prime": "5859383",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "1019532643",
+          "value": "686335907",
+          "inv": "19760312"
+        }
+      ]
+    },
+    {
+      "n": "1110318119",
+      "a": {
+        "int": "6100649",
+        "factorization": [
+          {
+            "prime": "487",
+            "exponent": 1
+          },
+          {
+            "prime": "12527",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "1110318119",
+          "value": "1065496752",
+          "inv": "584671775"
+        },
+        {
+          "mod": "1110318119",
+          "value": "989411564",
+          "inv": "922745957"
+        }
+      ]
+    },
+    {
+      "n": "2220636239",
+      "a": {
+        "int": "1110318119",
+        "factorization": [
+          {
+            "prime": "1110318119",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "2220636239",
+          "value": "3",
+          "inv": "740212080"
+        }
+      ]
+    },
+    {
+      "n": "2773320623",
+      "a": {
+        "int": "569003",
+        "factorization": [
+          {
+            "prime": "569003",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "2773320623",
+          "value": "2039232612",
+          "inv": "2440407146"
+        }
+      ]
+    },
+    {
+      "n": "9374403413",
+      "a": {
+        "int": "693989",
+        "factorization": [
+          {
+            "prime": "693989",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "9374403413",
+          "value": "8211844134",
+          "inv": "6020600718"
+        }
+      ]
+    },
+    {
+      "n": "13481018963",
+      "a": {
+        "int": "196993",
+        "factorization": [
+          {
+            "prime": "196993",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "13481018963",
+          "value": "11454426697",
+          "inv": "13232075911"
+        }
+      ]
+    },
+    {
+      "n": "72106336199",
+      "a": {
+        "int": "2773320623",
+        "factorization": [
+          {
+            "prime": "2773320623",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "72106336199",
+          "value": "67108863",
+          "inv": "8149528284"
+        }
+      ]
+    },
+    {
+      "n": "213441916511",
+      "a": {
+        "int": "292386187",
+        "factorization": [
+          {
+            "prime": "292386187",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "213441916511",
+          "value": "47282696164",
+          "inv": "209712463866"
+        }
+      ]
+    },
+    {
+      "n": "1013266244677",
+      "a": {
+        "int": "31495283",
+        "factorization": [
+          {
+            "prime": "3911",
+            "exponent": 1
+          },
+          {
+            "prime": "8053",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "1013266244677",
+          "value": "979574053341",
+          "inv": "583849304123"
+        },
+        {
+          "mod": "1013266244677",
+          "value": "718206703562",
+          "inv": "301643434691"
+        }
+      ]
+    },
+    {
+      "n": "5171003929967",
+      "a": {
+        "int": "65827379",
+        "factorization": [
+          {
+            "prime": "2281",
+            "exponent": 1
+          },
+          {
+            "prime": "28859",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "5171003929967",
+          "value": "4707046327936",
+          "inv": "903777470480"
+        },
+        {
+          "mod": "5171003929967",
+          "value": "2405770228312",
+          "inv": "1408483455690"
+        }
+      ]
+    },
+    {
+      "n": "1257559732178653",
+      "a": {
+        "int": "650910834461",
+        "factorization": [
+          {
+            "prime": "531581",
+            "exponent": 1
+          },
+          {
+            "prime": "1224481",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "1257559732178653",
+          "value": "1252739704402214",
+          "inv": "790900187493841"
+        },
+        {
+          "mod": "1257559732178653",
+          "value": "1139842034583223",
+          "inv": "212927577457398"
+        }
+      ]
+    },
+    {
+      "n": "1919519569386763",
+      "a": {
+        "int": "1088914891",
+        "factorization": [
+          {
+            "prime": "127",
+            "exponent": 1
+          },
+          {
+            "prime": "8574133",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "1919519569386763",
+          "value": "1059928654987440",
+          "inv": "1290547218147893"
+        },
+        {
+          "mod": "1919519569386763",
+          "value": "576774792492621",
+          "inv": "1870148777187772"
+        }
+      ]
+    },
+    {
+      "n": "6514380687527359",
+      "a": {
+        "int": "122232809",
+        "factorization": [
+          {
+            "prime": "122232809",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "6514380687527359",
+          "value": "4672174719684471",
+          "inv": "2207933795383807"
+        }
+      ]
+    },
+    {
+      "n": "31757755568855353",
+      "a": {
+        "int": "1788908903",
+        "factorization": [
+          {
+            "prime": "4153",
+            "exponent": 1
+          },
+          {
+            "prime": "430751",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "31757755568855353",
+          "value": "15280470251845349",
+          "inv": "15419847897348699"
+        },
+        {
+          "mod": "31757755568855353",
+          "value": "28256283979054929",
+          "inv": "25117532289192573"
+        }
+      ]
+    },
+    {
+      "n": "4434155615661930479",
+      "a": {
+        "int": "1257559732178653",
+        "factorization": [
+          {
+            "prime": "1257559732178653",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "4434155615661930479",
+          "value": "415787812636281766",
+          "inv": "1010501025739283171"
+        }
+      ]
+    },
+    {
+      "n": "22561162540501040539",
+      "a": {
+        "int": "5171003929967",
+        "factorization": [
+          {
+            "prime": "5171003929967",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "22561162540501040539",
+          "value": "1881923577665948217",
+          "inv": "10911148973215549673"
+        }
+      ]
+    },
+    {
+      "n": "243585722668023007729",
+      "a": {
+        "int": "6514380687527359",
+        "factorization": [
+          {
+            "prime": "6514380687527359",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "243585722668023007729",
+          "value": "58062397257690082651",
+          "inv": "51166098697536523084"
+        }
+      ]
+    },
+    {
+      "n": "3044861653679985063343",
+      "a": {
+        "int": "1502598035371129",
+        "factorization": [
+          {
+            "prime": "82163",
+            "exponent": 1
+          },
+          {
+            "prime": "132667",
+            "exponent": 1
+          },
+          {
+            "prime": "137849",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "3044861653679985063343",
+          "value": "2698095051855333426110",
+          "inv": "1377102493580837955588"
+        },
+        {
+          "mod": "3044861653679985063343",
+          "value": "1024945230919412454122",
+          "inv": "2641809638318597396287"
+        },
+        {
+          "mod": "3044861653679985063343",
+          "value": "150916308174585819653",
+          "inv": "2254829869378658001638"
+        }
+      ]
+    },
+    {
+      "n": "8312956054562778877481",
+      "a": {
+        "int": "212463466072699",
+        "factorization": [
+          {
+            "prime": "208393",
+            "exponent": 1
+          },
+          {
+            "prime": "1019532643",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "8312956054562778877481",
+          "value": "1622789414516127142474",
+          "inv": "7349153878600622169760"
+        },
+        {
+          "mod": "8312956054562778877481",
+          "value": "2460496464207392644677",
+          "inv": "495907208976900334963"
+        }
+      ]
+    },
+    {
+      "n": "172054593956031949258510691",
+      "a": {
+        "int": "4434155615661930479",
+        "factorization": [
+          {
+            "prime": "4434155615661930479",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "172054593956031949258510691",
+          "value": "81982237619807054769897706",
+          "inv": "154275350521713489305385904"
+        }
+      ]
+    },
+    {
+      "n": "198211423230930754013084525763697",
+      "a": {
+        "int": "3044861653679985063343",
+        "factorization": [
+          {
+            "prime": "3044861653679985063343",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "198211423230930754013084525763697",
+          "value": "75003846807402791567026918316103",
+          "inv": "169495726156219349589498880139957"
+        }
+      ]
+    },
+    {
+      "n": "75445702479781427272750846543864801",
+      "a": {
+        "int": "138409523410761641138333837",
+        "factorization": [
+          {
+            "prime": "72106336199",
+            "exponent": 1
+          },
+          {
+            "prime": "1919519569386763",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "75445702479781427272750846543864801",
+          "value": "56747016255153332959347766392083458",
+          "inv": "74602835786463724888147869570305675"
+        },
+        {
+          "mod": "75445702479781427272750846543864801",
+          "value": "71619851993489548214160924360205393",
+          "inv": "55965016733432503242248684386325671"
+        }
+      ]
+    },
+    {
+      "n": "19757330305831588566944191468367130476339",
+      "a": {
+        "int": "172054593956031949258510691",
+        "factorization": [
+          {
+            "prime": "172054593956031949258510691",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "19757330305831588566944191468367130476339",
+          "value": "9148758478138211201771971577098600188171",
+          "inv": "16371654433361644093796961727196399386194"
+        }
+      ]
+    },
+    {
+      "n": "203852586375664218368381551393371968928013",
+      "a": {
+        "int": "22860464442960894264963469960903",
+        "factorization": [
+          {
+            "prime": "1013266244677",
+            "exponent": 1
+          },
+          {
+            "prime": "22561162540501040539",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "203852586375664218368381551393371968928013",
+          "value": "97063494051824952211206577088532250307177",
+          "inv": "84135128262208942516925982890077989530087"
+        },
+        {
+          "mod": "203852586375664218368381551393371968928013",
+          "value": "18354895823941193021347484437084226055131",
+          "inv": "199539679749675491651762421036433056122800"
+        }
+      ]
+    },
+    {
+      "n": "276602624281642239937218680557139826668747",
+      "a": {
+        "int": "19757330305831588566944191468367130476339",
+        "factorization": [
+          {
+            "prime": "19757330305831588566944191468367130476339",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "276602624281642239937218680557139826668747",
+          "value": "16383",
+          "inv": "94074944912245044309966580483695483989395"
+        }
+      ]
+    },
+    {
+      "n": "104719073621178708975837602950775180438320278101",
+      "a": {
+        "int": "203852586375664218368381551393371968928013",
+        "factorization": [
+          {
+            "prime": "203852586375664218368381551393371968928013",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "104719073621178708975837602950775180438320278101",
+          "value": "40201969824907835965098388450003519734389074470",
+          "inv": "90084448839335833881019754118450260906209787307"
+        }
+      ]
+    },
+    {
+      "n": "83326725728999296701078628838522133333655224556987",
+      "a": {
+        "int": "3283783746403677120914944565027",
+        "factorization": [
+          {
+            "prime": "13481018963",
+            "exponent": 1
+          },
+          {
+            "prime": "243585722668023007729",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "83326725728999296701078628838522133333655224556987",
+          "value": "45558077268598629559825647874255428992852997082338",
+          "inv": "74784180402974733943307062467610150124597390521344"
+        },
+        {
+          "mod": "83326725728999296701078628838522133333655224556987",
+          "value": "38505998894110058337292829701939669729634037950975",
+          "inv": "676928970342584632397915495710524955933481069264"
+        }
+      ]
+    },
+    {
+      "n": "27413359092552162435694767700453926735143482401279781",
+      "a": {
+        "int": "104719073621178708975837602950775180438320278101",
+        "factorization": [
+          {
+            "prime": "104719073621178708975837602950775180438320278101",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "27413359092552162435694767700453926735143482401279781",
+          "value": "6041092171163918423393132352399868606647826176154688",
+          "inv": "4031111370769809914916647399004588060065488295890678"
+        }
+      ]
+    },
+    {
+      "n": "74058212732561358302231226437062788676166966415465897661863160754340907",
+      "a": {
+        "int": "2395986178073482737347378734667165195040796357129753",
+        "factorization": [
+          {
+            "prime": "31757755568855353",
+            "exponent": 1
+          },
+          {
+            "prime": "75445702479781427272750846543864801",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "74058212732561358302231226437062788676166966415465897661863160754340907",
+          "value": "69490809710348678725736597923071784769591275419387514694139338586948359",
+          "inv": "70463328703800545008217672123162676565183935400628861884889913886334520"
+        },
+        {
+          "mod": "74058212732561358302231226437062788676166966415465897661863160754340907",
+          "value": "50366660687963342066214195241331738400016478712605795091965648721912164",
+          "inv": "18232248056023258384404751131439975669387062239511397558448549501188471"
+        }
+      ]
+    },
+    {
+      "n": "7237005577332262213973186563042994240857116359379907606001950938285454250989",
+      "a": {
+        "int": "276602624281642239937218680557139826668747",
+        "factorization": [
+          {
+            "prime": "276602624281642239937218680557139826668747",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "7237005577332262213973186563042994240857116359379907606001950938285454250989",
+          "value": "2975531125133123119648879457563281269120703404158613135195788908093573672640",
+          "inv": "2233364593245673852815932892735013076939656528578070433728021143254617821614"
+        }
+      ]
+    },
+    {
+      "n": "14474011154664524427946373126085988481603263447650325797860494125407373907997",
+      "a": {
+        "int": "27413359092552162435694767700453926735143482401279781",
+        "factorization": [
+          {
+            "prime": "27413359092552162435694767700453926735143482401279781",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "14474011154664524427946373126085988481603263447650325797860494125407373907997",
+          "value": "3680285710178017958321162512429685261641070754575808221617538005008727093238",
+          "inv": "8307753089984235906883625319683110648166756904703804161871045904830952184079"
+        }
+      ]
+    },
+    {
+      "n": "57896044618658097711785492504343953926634992332820282019728792003956564819949",
+      "a": {
+        "int": "74058212732561358302231226437062788676166966415465897661863160754340907",
+        "factorization": [
+          {
+            "prime": "74058212732561358302231226437062788676166966415465897661863160754340907",
+            "exponent": 1
+          }
+        ]
+      },
+      "base": "2",
+      "inverses": [
+        {
+          "mod": "57896044618658097711785492504343953926634992332820282019728792003956564819949",
+          "value": "427094198651976259540344842774561673889945192655078505504941250475370961480",
+          "inv": "55540832096118778044507775605005710249233119951144946814680141076505643269084"
+        }
+      ]
+    }
+  ]
+}

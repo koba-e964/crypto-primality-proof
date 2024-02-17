@@ -2,6 +2,7 @@ package primality
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"math/big"
 	"reflect"
@@ -44,7 +45,11 @@ func (f *FactoredInt) Check() error {
 		product.Mul(product, big.NewInt(0).Exp((*big.Int)(prime), big.NewInt(int64(exponent)), nil))
 	}
 	if product.Cmp((*big.Int)(f.Int)) != 0 {
-		return fmt.Errorf("factorization is incorrect")
+		return fmt.Errorf(
+			"factorization is incorrect: %s != %s",
+			product.String(),
+			(*big.Int)(f.Int).String(),
+		)
 	}
 	return nil
 }
@@ -68,9 +73,9 @@ func (i *Inverse) Check() error {
 
 type Proof struct {
 	N        *BigInt      `json:"n"`
-	A        *FactoredInt `json:"a"` // N = A * B
-	Base     *BigInt      `json:"base"`
-	Inverses []Inverse    `json:"inverses"`
+	A        *FactoredInt `json:"a,omitempty"` // N = A * B
+	Base     *BigInt      `json:"base,omitempty"`
+	Inverses []Inverse    `json:"inverses,omitempty"`
 }
 
 // Check checks the correctness of the proof per se,
@@ -82,14 +87,14 @@ func (p *Proof) Check() error {
 		return nil
 	}
 	if err := p.A.Check(); err != nil {
-		return err
+		return errors.Join(fmt.Errorf("invalid A in verifying %s", N.String()), err)
 	}
 	A := (*big.Int)(p.A.Int)
 	NMinus1 := big.NewInt(0).Sub(N, big.NewInt(1))
 	NModA := big.NewInt(0)
 	NModA.Mod(NMinus1, A)
 	if NModA.Cmp(big.NewInt(0)) != 0 {
-		return fmt.Errorf("pocklington: N-1 is not divisible by A")
+		return fmt.Errorf("pocklington: N-1 is not divisible by A: not (%s | %s)", A.String(), NMinus1.String())
 	}
 	fromInverse := map[string]struct{}{}
 	for _, inv := range p.Inverses {

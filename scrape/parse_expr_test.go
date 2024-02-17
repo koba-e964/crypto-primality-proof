@@ -14,6 +14,16 @@ func TestParseExpr(t *testing.T) {
 		expected *primality.FactoredInt
 	}{
 		{
+			expr: "3 * 5",
+			expected: &primality.FactoredInt{
+				Int: (*primality.BigInt)(big.NewInt(15)),
+				Factorization: []primality.FactorEntry{
+					{Prime: (*primality.BigInt)(big.NewInt(3)), Exponent: 1},
+					{Prime: (*primality.BigInt)(big.NewInt(5)), Exponent: 1},
+				},
+			},
+		},
+		{
 			expr: "3^2 * 5",
 			expected: &primality.FactoredInt{
 				Int: (*primality.BigInt)(big.NewInt(45)),
