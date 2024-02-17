@@ -67,6 +67,11 @@ func checkGen(n *big.Int, a *FactoredInt, base *big.Int) ([]Inverse, error) {
 }
 
 func Prove(n *big.Int) (*Proof, error) {
+	if n.Cmp(big.NewInt(2)) == 0 {
+		return &Proof{
+			N: (*BigInt)(n),
+		}, nil
+	}
 	if !n.ProbablyPrime(20) {
 		return nil, ErrNotPrime
 	}
