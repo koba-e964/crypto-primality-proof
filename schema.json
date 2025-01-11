@@ -12,7 +12,7 @@
         "additionalProperties": false,
         "properties": {
           "n": {
-            "type": "string"
+            "$ref": "#/$defs/numeric-string"
           },
           "a": {
             "type": "object",
@@ -20,7 +20,7 @@
             "additionalProperties": false,
             "properties": {
               "int": {
-                "type": "string"
+                "$ref": "#/$defs/numeric-string"
               },
               "factorization": {
                 "type": "array",
@@ -30,7 +30,7 @@
                   "additionalProperties": false,
                   "properties": {
                     "prime": {
-                      "type": "string"
+                      "$ref": "#/$defs/numeric-string"
                     },
                     "exponent": {
                       "type": "number"
@@ -41,7 +41,7 @@
             }
           },
           "base": {
-            "type": "string"
+            "$ref": "#/$defs/numeric-string"
           },
           "inverses": {
             "type": "array",
@@ -51,19 +51,25 @@
               "additionalProperties": false,
               "properties": {
                 "mod": {
-                  "type": "string"
+                  "$ref": "#/$defs/numeric-string"
                 },
                 "value": {
-                  "type": "string"
+                  "$ref": "#/$defs/numeric-string"
                 },
                 "inv": {
-                  "type": "string"
+                  "$ref": "#/$defs/numeric-string"
                 }
               }
             }
           }
         }
       }
+    }
+  },
+  "$defs": {
+    "numeric-string": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
     }
   }
 }
