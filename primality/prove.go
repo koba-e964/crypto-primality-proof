@@ -81,10 +81,12 @@ func Prove(n *big.Int) (*Proof, error) {
 	for {
 		if invs, err := checkGen(n, a, base); err == nil {
 			return &Proof{
-				N:        (*BigInt)(n),
-				A:        a,
-				Base:     (*BigInt)(base),
-				Inverses: invs,
+				N: (*BigInt)(n),
+				Proof: &GeneralizedPocklingtonProof{
+					A:        a,
+					Base:     (*BigInt)(base),
+					Inverses: invs,
+				},
 			}, nil
 		}
 		base.Add(base, big.NewInt(1))

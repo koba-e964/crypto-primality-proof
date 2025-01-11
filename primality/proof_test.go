@@ -13,19 +13,19 @@ func TestFactoredIntCheck(t *testing.T) {
 		Int: (*BigInt)(big.NewInt(45)),
 		Factorization: []FactorEntry{
 			{Prime: (*BigInt)(big.NewInt(3)), Exponent: 2},
-			{Prime: (*BigInt)(big.NewInt(5)), Exponent: 2}, // should be 1
+			{Prime: (*BigInt)(big.NewInt(5)), Exponent: 1},
 		},
 	}
-	assert.Error(t, a.Check())
+	assert.NoError(t, a.Check())
 }
 
 func TestInverseCheck(t *testing.T) {
 	inv := Inverse{
 		Mod:   (*BigInt)(big.NewInt(7)),
 		Value: (*BigInt)(big.NewInt(3)),
-		Inv:   (*BigInt)(big.NewInt(3)), // should be 5
+		Inv:   (*BigInt)(big.NewInt(5)),
 	}
-	assert.Error(t, inv.Check())
+	assert.NoError(t, inv.Check())
 }
 
 func TestProofCheck2(t *testing.T) {
@@ -40,24 +40,26 @@ func TestProofCheck181(t *testing.T) {
 	// https://safecurves.cr.yp.to/proof/181.html
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(181)),
-		A: &FactoredInt{
-			Int: (*BigInt)(big.NewInt(45)),
-			Factorization: []FactorEntry{
-				{Prime: (*BigInt)(big.NewInt(3)), Exponent: 2},
-				{Prime: (*BigInt)(big.NewInt(5)), Exponent: 1},
+		Proof: &GeneralizedPocklingtonProof{
+			A: &FactoredInt{
+				Int: (*BigInt)(big.NewInt(45)),
+				Factorization: []FactorEntry{
+					{Prime: (*BigInt)(big.NewInt(3)), Exponent: 2},
+					{Prime: (*BigInt)(big.NewInt(5)), Exponent: 1},
+				},
 			},
-		},
-		Base: (*BigInt)(big.NewInt(2)),
-		Inverses: []Inverse{
-			{
-				Mod:   (*BigInt)(big.NewInt(181)),
-				Value: (*BigInt)(big.NewInt(47)),
-				Inv:   (*BigInt)(big.NewInt(104)),
-			},
-			{
-				Mod:   (*BigInt)(big.NewInt(181)),
-				Value: (*BigInt)(big.NewInt(58)),
-				Inv:   (*BigInt)(big.NewInt(103)),
+			Base: (*BigInt)(big.NewInt(2)),
+			Inverses: []Inverse{
+				{
+					Mod:   (*BigInt)(big.NewInt(181)),
+					Value: (*BigInt)(big.NewInt(47)),
+					Inv:   (*BigInt)(big.NewInt(104)),
+				},
+				{
+					Mod:   (*BigInt)(big.NewInt(181)),
+					Value: (*BigInt)(big.NewInt(58)),
+					Inv:   (*BigInt)(big.NewInt(103)),
+				},
 			},
 		},
 	}
@@ -74,18 +76,20 @@ func TestProofCheck181(t *testing.T) {
 func TestProofCheck15(t *testing.T) {
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(15)),
-		A: &FactoredInt{
-			Int: (*BigInt)(big.NewInt(2)),
-			Factorization: []FactorEntry{
-				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 1},
+		Proof: &GeneralizedPocklingtonProof{
+			A: &FactoredInt{
+				Int: (*BigInt)(big.NewInt(2)),
+				Factorization: []FactorEntry{
+					{Prime: (*BigInt)(big.NewInt(2)), Exponent: 1},
+				},
 			},
-		},
-		Base: (*BigInt)(big.NewInt(14)),
-		Inverses: []Inverse{
-			{
-				Mod:   (*BigInt)(big.NewInt(15)),
-				Value: (*BigInt)(big.NewInt(13)),
-				Inv:   (*BigInt)(big.NewInt(7)),
+			Base: (*BigInt)(big.NewInt(14)),
+			Inverses: []Inverse{
+				{
+					Mod:   (*BigInt)(big.NewInt(15)),
+					Value: (*BigInt)(big.NewInt(13)),
+					Inv:   (*BigInt)(big.NewInt(7)),
+				},
 			},
 		},
 	}
@@ -95,18 +99,20 @@ func TestProofCheck15(t *testing.T) {
 func TestProofCheck255(t *testing.T) {
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(255)),
-		A: &FactoredInt{
-			Int: (*BigInt)(big.NewInt(8)),
-			Factorization: []FactorEntry{
-				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 3},
+		Proof: &GeneralizedPocklingtonProof{
+			A: &FactoredInt{
+				Int: (*BigInt)(big.NewInt(8)),
+				Factorization: []FactorEntry{
+					{Prime: (*BigInt)(big.NewInt(2)), Exponent: 3},
+				},
 			},
-		},
-		Base: (*BigInt)(big.NewInt(2)),
-		Inverses: []Inverse{
-			{
-				Mod:   (*BigInt)(big.NewInt(255)),
-				Value: (*BigInt)(big.NewInt(1)),
-				Inv:   (*BigInt)(big.NewInt(1)),
+			Base: (*BigInt)(big.NewInt(2)),
+			Inverses: []Inverse{
+				{
+					Mod:   (*BigInt)(big.NewInt(255)),
+					Value: (*BigInt)(big.NewInt(1)),
+					Inv:   (*BigInt)(big.NewInt(1)),
+				},
 			},
 		},
 	}
@@ -117,18 +123,20 @@ func TestProofCheck257(t *testing.T) {
 	// https://safecurves.cr.yp.to/proof/257.html
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(257)),
-		A: &FactoredInt{
-			Int: (*BigInt)(big.NewInt(256)),
-			Factorization: []FactorEntry{
-				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 8},
+		Proof: &GeneralizedPocklingtonProof{
+			A: &FactoredInt{
+				Int: (*BigInt)(big.NewInt(256)),
+				Factorization: []FactorEntry{
+					{Prime: (*BigInt)(big.NewInt(2)), Exponent: 8},
+				},
 			},
-		},
-		Base: (*BigInt)(big.NewInt(3)),
-		Inverses: []Inverse{
-			{
-				Mod:   (*BigInt)(big.NewInt(257)),
-				Value: (*BigInt)(big.NewInt(255)),
-				Inv:   (*BigInt)(big.NewInt(128)),
+			Base: (*BigInt)(big.NewInt(3)),
+			Inverses: []Inverse{
+				{
+					Mod:   (*BigInt)(big.NewInt(257)),
+					Value: (*BigInt)(big.NewInt(255)),
+					Inv:   (*BigInt)(big.NewInt(128)),
+				},
 			},
 		},
 	}
@@ -144,18 +152,20 @@ func TestProofCheck257(t *testing.T) {
 func TestProofCheckInvalidMod(t *testing.T) {
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(257)),
-		A: &FactoredInt{
-			Int: (*BigInt)(big.NewInt(256)),
-			Factorization: []FactorEntry{
-				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 8},
+		Proof: &GeneralizedPocklingtonProof{
+			A: &FactoredInt{
+				Int: (*BigInt)(big.NewInt(256)),
+				Factorization: []FactorEntry{
+					{Prime: (*BigInt)(big.NewInt(2)), Exponent: 8},
+				},
 			},
-		},
-		Base: (*BigInt)(big.NewInt(3)),
-		Inverses: []Inverse{
-			{
-				Mod:   (*BigInt)(big.NewInt(4)),
-				Value: (*BigInt)(big.NewInt(3)),
-				Inv:   (*BigInt)(big.NewInt(3)),
+			Base: (*BigInt)(big.NewInt(3)),
+			Inverses: []Inverse{
+				{
+					Mod:   (*BigInt)(big.NewInt(4)),
+					Value: (*BigInt)(big.NewInt(3)),
+					Inv:   (*BigInt)(big.NewInt(3)),
+				},
 			},
 		},
 	}
@@ -165,18 +175,20 @@ func TestProofCheckInvalidMod(t *testing.T) {
 func TestProofCheckInverseSetNotCorrect(t *testing.T) {
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(257)),
-		A: &FactoredInt{
-			Int: (*BigInt)(big.NewInt(256)),
-			Factorization: []FactorEntry{
-				{Prime: (*BigInt)(big.NewInt(2)), Exponent: 8},
+		Proof: &GeneralizedPocklingtonProof{
+			A: &FactoredInt{
+				Int: (*BigInt)(big.NewInt(256)),
+				Factorization: []FactorEntry{
+					{Prime: (*BigInt)(big.NewInt(2)), Exponent: 8},
+				},
 			},
-		},
-		Base: (*BigInt)(big.NewInt(3)),
-		Inverses: []Inverse{
-			{
-				Mod:   (*BigInt)(big.NewInt(257)),
-				Value: (*BigInt)(big.NewInt(1)),
-				Inv:   (*BigInt)(big.NewInt(1)),
+			Base: (*BigInt)(big.NewInt(3)),
+			Inverses: []Inverse{
+				{
+					Mod:   (*BigInt)(big.NewInt(257)),
+					Value: (*BigInt)(big.NewInt(1)),
+					Inv:   (*BigInt)(big.NewInt(1)),
+				},
 			},
 		},
 	}

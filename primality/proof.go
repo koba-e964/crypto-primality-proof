@@ -71,11 +71,15 @@ func (i *Inverse) Check() error {
 	return nil
 }
 
-type Proof struct {
-	N        *BigInt      `json:"n"`
+type GeneralizedPocklingtonProof struct {
 	A        *FactoredInt `json:"a,omitempty"` // N = A * B
 	Base     *BigInt      `json:"base,omitempty"`
 	Inverses []Inverse    `json:"inverses,omitempty"`
+}
+
+type Proof struct {
+	N     *BigInt                      `json:"n"`
+	Proof *GeneralizedPocklingtonProof `json:"generalized-pocklington,omitempty"`
 }
 
 // Check checks the correctness of the proof per se,
@@ -86,6 +90,20 @@ func (p *Proof) Check() error {
 	if N.Cmp(big.NewInt(2)) == 0 {
 		return nil
 	}
+	proved := false
+	if p.Proof != nil {
+		if err := p.Proof.Check(N); err != nil {
+			return err
+		}
+		proved = true
+	}
+	if !proved {
+		return fmt.Errorf("no proof provided")
+	}
+	return nil
+}
+
+func (p *GeneralizedPocklingtonProof) Check(N *big.Int) error {
 	if err := p.A.Check(); err != nil {
 		return errors.Join(fmt.Errorf("invalid A in verifying %s", N.String()), err)
 	}
@@ -137,7 +155,7 @@ func (p *Proof) Dep() []*big.Int {
 		return nil
 	}
 	deps := []*big.Int{}
-	for _, entry := range p.A.Factorization {
+	for _, entry := range p.Proof.A.Factorization {
 		deps = append(deps, (*big.Int)(entry.Prime))
 	}
 	return deps

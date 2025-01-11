@@ -14,53 +14,8 @@
           "n": {
             "$ref": "#/$defs/numeric-string"
           },
-          "a": {
-            "type": "object",
-            "required": ["int", "factorization"],
-            "additionalProperties": false,
-            "properties": {
-              "int": {
-                "$ref": "#/$defs/numeric-string"
-              },
-              "factorization": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "required": ["prime", "exponent"],
-                  "additionalProperties": false,
-                  "properties": {
-                    "prime": {
-                      "$ref": "#/$defs/numeric-string"
-                    },
-                    "exponent": {
-                      "type": "number"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "base": {
-            "$ref": "#/$defs/numeric-string"
-          },
-          "inverses": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": ["mod", "value", "inv"],
-              "additionalProperties": false,
-              "properties": {
-                "mod": {
-                  "$ref": "#/$defs/numeric-string"
-                },
-                "value": {
-                  "$ref": "#/$defs/numeric-string"
-                },
-                "inv": {
-                  "$ref": "#/$defs/numeric-string"
-                }
-              }
-            }
+          "generalized-pocklington": {
+            "$ref": "#/$defs/generalized-pocklington-proof"
           }
         }
       }
@@ -70,6 +25,56 @@
     "numeric-string": {
       "type": "string",
       "pattern": "^[0-9]+$"
+    },
+    "generalized-pocklington-proof": {
+      "a": {
+        "type": "object",
+        "required": ["int", "factorization"],
+        "additionalProperties": false,
+        "properties": {
+          "int": {
+            "$ref": "#/$defs/numeric-string"
+          },
+          "factorization": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["prime", "exponent"],
+              "additionalProperties": false,
+              "properties": {
+                "prime": {
+                  "$ref": "#/$defs/numeric-string"
+                },
+                "exponent": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      },
+      "base": {
+        "$ref": "#/$defs/numeric-string"
+      },
+      "inverses": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["mod", "value", "inv"],
+          "additionalProperties": false,
+          "properties": {
+            "mod": {
+              "$ref": "#/$defs/numeric-string"
+            },
+            "value": {
+              "$ref": "#/$defs/numeric-string"
+            },
+            "inv": {
+              "$ref": "#/$defs/numeric-string"
+            }
+          }
+        }
+      }
     }
   }
 }

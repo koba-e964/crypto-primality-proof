@@ -165,12 +165,13 @@ func (r *RawProofPage) Translate() (*primality.Proof, error) {
 	if err != nil {
 		return nil, err
 	}
-	p.A = a
+	var innerProof primality.GeneralizedPocklingtonProof
+	innerProof.A = a
 	base, ok := new(big.Int).SetString(r.B, 10)
 	if !ok {
 		return nil, ErrNotANumber
 	}
-	p.Base = (*primality.BigInt)(base)
+	innerProof.Base = (*primality.BigInt)(base)
 	inverses := make([]primality.Inverse, len(r.Inverses))
 	for i, inv := range r.Inverses {
 		value, ok := new(big.Int).SetString(inv[0], 10)
@@ -187,6 +188,7 @@ func (r *RawProofPage) Translate() (*primality.Proof, error) {
 			Inv:   (*primality.BigInt)(inv),
 		}
 	}
-	p.Inverses = inverses
+	innerProof.Inverses = inverses
+	p.Proof = &innerProof
 	return &p, nil
 }
