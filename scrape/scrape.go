@@ -40,9 +40,6 @@ func GetContent(url string) (io.ReadCloser, error) {
 	if err != nil {
 		return nil, err
 	}
-	if err != nil {
-		return nil, err
-	}
 	return res.Body, nil
 }
 
