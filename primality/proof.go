@@ -91,10 +91,15 @@ func (p *Proof) Check() error {
 	}
 	A := (*big.Int)(p.A.Int)
 	NMinus1 := big.NewInt(0).Sub(N, big.NewInt(1))
-	NModA := big.NewInt(0)
-	NModA.Mod(NMinus1, A)
+	B, NModA := big.NewInt(0).DivMod(NMinus1, A, big.NewInt(0))
 	if NModA.Cmp(big.NewInt(0)) != 0 {
 		return fmt.Errorf("pocklington: N-1 is not divisible by A: not (%s | %s)", A.String(), NMinus1.String())
+	}
+	if B.Cmp(A) >= 0 {
+		return fmt.Errorf("A^2 > N must hold")
+	}
+	if B.ModInverse(B, A) == nil {
+		return fmt.Errorf("pocklington: gcd(A, B) != 1")
 	}
 	fromInverse := map[string]struct{}{}
 	for _, inv := range p.Inverses {
@@ -121,11 +126,6 @@ func (p *Proof) Check() error {
 	}
 	if !reflect.DeepEqual(fromInverse, fromBase) {
 		return fmt.Errorf("set of inverses is not correct")
-	}
-	tmp := big.NewInt(0)
-	tmp.Exp(A, big.NewInt(2), nil)
-	if tmp.Cmp(N) <= 0 {
-		return fmt.Errorf("A^2 > N must hold")
 	}
 	return nil
 }
