@@ -1,0 +1,22 @@
+name: Schema
+
+"on":
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+  schedule:
+    - cron: "21 0 * * 6"
+
+jobs:
+  build:
+    name: Validate output
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Validate output
+      uses: dsanders11/json-schema-validate-action@v1.2.0
+      with:
+        schema: schema.json
+        files: Curve25519.json
