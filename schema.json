@@ -27,50 +27,55 @@
       "pattern": "^[0-9]+$"
     },
     "generalized-pocklington-proof": {
-      "a": {
-        "type": "object",
-        "required": ["int", "factorization"],
-        "additionalProperties": false,
-        "properties": {
-          "int": {
-            "$ref": "#/$defs/numeric-string"
-          },
-          "factorization": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": ["prime", "exponent"],
-              "additionalProperties": false,
-              "properties": {
-                "prime": {
-                  "$ref": "#/$defs/numeric-string"
-                },
-                "exponent": {
-                  "type": "number"
+      "type": "object",
+      "required": ["a", "base", "inverses"],
+      "additionalProperties": false,
+      "properties": {
+        "a": {
+          "type": "object",
+          "required": ["int", "factorization"],
+          "additionalProperties": false,
+          "properties": {
+            "int": {
+              "$ref": "#/$defs/numeric-string"
+            },
+            "factorization": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["prime", "exponent"],
+                "additionalProperties": false,
+                "properties": {
+                  "prime": {
+                    "$ref": "#/$defs/numeric-string"
+                  },
+                  "exponent": {
+                    "type": "number"
+                  }
                 }
               }
             }
           }
-        }
-      },
-      "base": {
-        "$ref": "#/$defs/numeric-string"
-      },
-      "inverses": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "required": ["mod", "value", "inv"],
-          "additionalProperties": false,
-          "properties": {
-            "mod": {
-              "$ref": "#/$defs/numeric-string"
-            },
-            "value": {
-              "$ref": "#/$defs/numeric-string"
-            },
-            "inv": {
-              "$ref": "#/$defs/numeric-string"
+        },
+        "base": {
+          "$ref": "#/$defs/numeric-string"
+        },
+        "inverses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["mod", "value", "inv"],
+            "additionalProperties": false,
+            "properties": {
+              "mod": {
+                "$ref": "#/$defs/numeric-string"
+              },
+              "value": {
+                "$ref": "#/$defs/numeric-string"
+              },
+              "inv": {
+                "$ref": "#/$defs/numeric-string"
+              }
             }
           }
         }
