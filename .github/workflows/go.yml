@@ -32,6 +32,9 @@ jobs:
     - name: Test
       run: |
         go test -v ./...
+    - name: Test run
+      run: |
+        go run ./cmd/verify Curve25519.json
 
     - name: Benchmark
       run: go test -bench . ./...
