@@ -1,0 +1,51 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "13",
+      "generalized-pocklington": {
+        "a": {
+          "int": "4",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "13",
+            "value": "11",
+            "inv": "6"
+          }
+        ]
+      }
+    },
+    {
+      "n": "79",
+      "generalized-pocklington": {
+        "a": {
+          "int": "13",
+          "factorization": [
+            {
+              "prime": "13",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "79",
+            "value": "63",
+            "inv": "74"
+          }
+        ]
+      }
+    }
+  ]
+}

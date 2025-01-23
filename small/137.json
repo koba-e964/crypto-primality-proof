@@ -1,0 +1,51 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "17",
+      "generalized-pocklington": {
+        "a": {
+          "int": "16",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 4
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "17",
+            "value": "15",
+            "inv": "8"
+          }
+        ]
+      }
+    },
+    {
+      "n": "137",
+      "generalized-pocklington": {
+        "a": {
+          "int": "17",
+          "factorization": [
+            {
+              "prime": "17",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "137",
+            "value": "118",
+            "inv": "36"
+          }
+        ]
+      }
+    }
+  ]
+}

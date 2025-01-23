@@ -1,0 +1,29 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "97",
+      "generalized-pocklington": {
+        "a": {
+          "int": "32",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 5
+            }
+          ]
+        },
+        "base": "5",
+        "inverses": [
+          {
+            "mod": "97",
+            "value": "95",
+            "inv": "48"
+          }
+        ]
+      }
+    }
+  ]
+}

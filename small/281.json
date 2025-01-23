@@ -1,0 +1,60 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "5",
+      "generalized-pocklington": {
+        "a": {
+          "int": "4",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "5",
+            "value": "3",
+            "inv": "2"
+          }
+        ]
+      }
+    },
+    {
+      "n": "281",
+      "generalized-pocklington": {
+        "a": {
+          "int": "40",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 3
+            },
+            {
+              "prime": "5",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "281",
+            "value": "279",
+            "inv": "140"
+          },
+          {
+            "mod": "281",
+            "value": "85",
+            "inv": "162"
+          }
+        ]
+      }
+    }
+  ]
+}

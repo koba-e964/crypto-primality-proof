@@ -1,0 +1,29 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "17",
+      "generalized-pocklington": {
+        "a": {
+          "int": "16",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 4
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "17",
+            "value": "15",
+            "inv": "8"
+          }
+        ]
+      }
+    }
+  ]
+}

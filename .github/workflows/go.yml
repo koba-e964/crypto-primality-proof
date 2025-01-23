@@ -35,6 +35,7 @@ jobs:
     - name: Test run
       run: |
         go run ./cmd/verify Curve25519.json
+        for file in small/*.json; do go run ./cmd/verify $file; done
 
     - name: Benchmark
       run: go test -bench . ./...

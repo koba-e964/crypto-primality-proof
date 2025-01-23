@@ -1,0 +1,51 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "113",
+      "generalized-pocklington": {
+        "a": {
+          "int": "16",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 4
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "113",
+            "value": "111",
+            "inv": "56"
+          }
+        ]
+      }
+    },
+    {
+      "n": "227",
+      "generalized-pocklington": {
+        "a": {
+          "int": "113",
+          "factorization": [
+            {
+              "prime": "113",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "227",
+            "value": "3",
+            "inv": "76"
+          }
+        ]
+      }
+    }
+  ]
+}

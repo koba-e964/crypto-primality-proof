@@ -1,0 +1,29 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "257",
+      "generalized-pocklington": {
+        "a": {
+          "int": "256",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 8
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "257",
+            "value": "255",
+            "inv": "128"
+          }
+        ]
+      }
+    }
+  ]
+}

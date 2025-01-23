@@ -1,0 +1,29 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "41",
+      "generalized-pocklington": {
+        "a": {
+          "int": "8",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 3
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "41",
+            "value": "39",
+            "inv": "20"
+          }
+        ]
+      }
+    }
+  ]
+}
