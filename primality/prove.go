@@ -82,7 +82,7 @@ func Prove(n *big.Int) (*Proof, error) {
 		if invs, err := checkGen(n, a, base); err == nil {
 			return &Proof{
 				N: (*BigInt)(n),
-				Proof: &GeneralizedPocklingtonProof{
+				GeneralizedPocklington: &GeneralizedPocklingtonProof{
 					A:        a,
 					Base:     (*BigInt)(base),
 					Inverses: invs,

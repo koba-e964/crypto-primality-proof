@@ -11,7 +11,7 @@ func TestRegistryCheckSuccess(t *testing.T) {
 	// https://safecurves.cr.yp.to/proof/3.html
 	cert3 := Proof{
 		N: (*BigInt)(big.NewInt(3)),
-		Proof: &GeneralizedPocklingtonProof{
+		GeneralizedPocklington: &GeneralizedPocklingtonProof{
 			A: &FactoredInt{
 				Int: (*BigInt)(big.NewInt(2)),
 				Factorization: []FactorEntry{
@@ -41,7 +41,7 @@ func TestRegistryCheckInsufficient(t *testing.T) {
 	// https://safecurves.cr.yp.to/proof/181.html
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(181)),
-		Proof: &GeneralizedPocklingtonProof{
+		GeneralizedPocklington: &GeneralizedPocklingtonProof{
 			A: &FactoredInt{
 				Int: (*BigInt)(big.NewInt(45)),
 				Factorization: []FactorEntry{

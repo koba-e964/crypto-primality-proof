@@ -40,7 +40,7 @@ func TestProofCheck181(t *testing.T) {
 	// https://safecurves.cr.yp.to/proof/181.html
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(181)),
-		Proof: &GeneralizedPocklingtonProof{
+		GeneralizedPocklington: &GeneralizedPocklingtonProof{
 			A: &FactoredInt{
 				Int: (*BigInt)(big.NewInt(45)),
 				Factorization: []FactorEntry{
@@ -76,7 +76,7 @@ func TestProofCheck181(t *testing.T) {
 func TestProofCheck15(t *testing.T) {
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(15)),
-		Proof: &GeneralizedPocklingtonProof{
+		GeneralizedPocklington: &GeneralizedPocklingtonProof{
 			A: &FactoredInt{
 				Int: (*BigInt)(big.NewInt(2)),
 				Factorization: []FactorEntry{
@@ -99,7 +99,7 @@ func TestProofCheck15(t *testing.T) {
 func TestProofCheck255(t *testing.T) {
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(255)),
-		Proof: &GeneralizedPocklingtonProof{
+		GeneralizedPocklington: &GeneralizedPocklingtonProof{
 			A: &FactoredInt{
 				Int: (*BigInt)(big.NewInt(8)),
 				Factorization: []FactorEntry{
@@ -123,7 +123,7 @@ func TestProofCheck257(t *testing.T) {
 	// https://safecurves.cr.yp.to/proof/257.html
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(257)),
-		Proof: &GeneralizedPocklingtonProof{
+		GeneralizedPocklington: &GeneralizedPocklingtonProof{
 			A: &FactoredInt{
 				Int: (*BigInt)(big.NewInt(256)),
 				Factorization: []FactorEntry{
@@ -152,7 +152,7 @@ func TestProofCheck257(t *testing.T) {
 func TestProofCheckInvalidMod(t *testing.T) {
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(257)),
-		Proof: &GeneralizedPocklingtonProof{
+		GeneralizedPocklington: &GeneralizedPocklingtonProof{
 			A: &FactoredInt{
 				Int: (*BigInt)(big.NewInt(256)),
 				Factorization: []FactorEntry{
@@ -175,7 +175,7 @@ func TestProofCheckInvalidMod(t *testing.T) {
 func TestProofCheckInverseSetNotCorrect(t *testing.T) {
 	cert := Proof{
 		N: (*BigInt)(big.NewInt(257)),
-		Proof: &GeneralizedPocklingtonProof{
+		GeneralizedPocklington: &GeneralizedPocklingtonProof{
 			A: &FactoredInt{
 				Int: (*BigInt)(big.NewInt(256)),
 				Factorization: []FactorEntry{

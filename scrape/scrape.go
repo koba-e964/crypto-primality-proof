@@ -189,6 +189,6 @@ func (r *RawProofPage) Translate() (*primality.Proof, error) {
 		}
 	}
 	innerProof.Inverses = inverses
-	p.Proof = &innerProof
+	p.GeneralizedPocklington = &innerProof
 	return &p, nil
 }

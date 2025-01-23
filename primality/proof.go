@@ -2,10 +2,8 @@ package primality
 
 import (
 	"encoding/json"
-	"errors"
 	"fmt"
 	"math/big"
-	"reflect"
 )
 
 // Wrapper type. We need a big.Int to marshal/unmarshal to/from a string
@@ -71,15 +69,9 @@ func (i *Inverse) Check() error {
 	return nil
 }
 
-type GeneralizedPocklingtonProof struct {
-	A        *FactoredInt `json:"a,omitempty"` // N = A * B
-	Base     *BigInt      `json:"base,omitempty"`
-	Inverses []Inverse    `json:"inverses,omitempty"`
-}
-
 type Proof struct {
-	N     *BigInt                      `json:"n"`
-	Proof *GeneralizedPocklingtonProof `json:"generalized-pocklington,omitempty"`
+	N                      *BigInt                      `json:"n"`
+	GeneralizedPocklington *GeneralizedPocklingtonProof `json:"generalized-pocklington,omitempty"`
 }
 
 // Check checks the correctness of the proof per se,
@@ -91,59 +83,14 @@ func (p *Proof) Check() error {
 		return nil
 	}
 	proved := false
-	if p.Proof != nil {
-		if err := p.Proof.Check(N); err != nil {
+	if p.GeneralizedPocklington != nil {
+		if err := p.GeneralizedPocklington.Check(N); err != nil {
 			return err
 		}
 		proved = true
 	}
 	if !proved {
 		return fmt.Errorf("no proof provided")
-	}
-	return nil
-}
-
-func (p *GeneralizedPocklingtonProof) Check(N *big.Int) error {
-	if err := p.A.Check(); err != nil {
-		return errors.Join(fmt.Errorf("invalid A in verifying %s", N.String()), err)
-	}
-	A := (*big.Int)(p.A.Int)
-	NMinus1 := big.NewInt(0).Sub(N, big.NewInt(1))
-	B, NModA := big.NewInt(0).DivMod(NMinus1, A, big.NewInt(0))
-	if NModA.Cmp(big.NewInt(0)) != 0 {
-		return fmt.Errorf("pocklington: N-1 is not divisible by A: not (%s | %s)", A.String(), NMinus1.String())
-	}
-	if B.Cmp(A) >= 0 {
-		return fmt.Errorf("A^2 > N must hold")
-	}
-	if B.ModInverse(B, A) == nil {
-		return fmt.Errorf("pocklington: gcd(A, B) != 1")
-	}
-	fromInverse := map[string]struct{}{}
-	for _, inv := range p.Inverses {
-		if err := inv.Check(); err != nil {
-			return err
-		}
-		if (*big.Int)(inv.Mod).Cmp(N) != 0 {
-			return fmt.Errorf("invalid modulus in inverse")
-		}
-		invString := (*big.Int)(inv.Value).String()
-		if _, ok := fromInverse[invString]; ok {
-			return fmt.Errorf("duplicate inverse")
-		}
-		fromInverse[invString] = struct{}{}
-	}
-	fromBase := map[string]struct{}{}
-	for _, entry := range p.A.Factorization {
-		pr := (*big.Int)(entry.Prime)
-		exp := big.NewInt(0).Div(NMinus1, pr)
-		value := big.NewInt(0).Exp((*big.Int)(p.Base), exp, N)
-		value.Sub(value, big.NewInt(1))
-		value.Mod(value, N)
-		fromBase[value.String()] = struct{}{}
-	}
-	if !reflect.DeepEqual(fromInverse, fromBase) {
-		return fmt.Errorf("set of inverses is not correct")
 	}
 	return nil
 }
@@ -155,8 +102,8 @@ func (p *Proof) Dep() []*big.Int {
 		return nil
 	}
 	deps := []*big.Int{}
-	for _, entry := range p.Proof.A.Factorization {
-		deps = append(deps, (*big.Int)(entry.Prime))
+	if p.GeneralizedPocklington != nil {
+		deps = append(deps, p.GeneralizedPocklington.Dep()...)
 	}
 	return deps
 }
