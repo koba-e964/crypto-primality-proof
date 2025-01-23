@@ -75,6 +75,13 @@ func Prove(n *big.Int) (*Proof, error) {
 	if !n.ProbablyPrime(20) {
 		return nil, ErrNotPrime
 	}
+	prothProof, err := ProveProth(n)
+	if err == nil {
+		return prothProof, nil
+	}
+	if err != ErrNotProth {
+		return nil, err
+	}
 	nMinus1 := big.NewInt(0).Sub(n, big.NewInt(1))
 	a := findA(nMinus1)
 	base := big.NewInt(2)
