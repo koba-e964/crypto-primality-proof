@@ -1,0 +1,3135 @@
+{
+  "proofs": [
+    {
+      "n": "2"
+    },
+    {
+      "n": "3",
+      "generalized-pocklington": {
+        "a": {
+          "int": "2",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "3",
+            "value": "1",
+            "inv": "1"
+          }
+        ]
+      }
+    },
+    {
+      "n": "5",
+      "generalized-pocklington": {
+        "a": {
+          "int": "4",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "5",
+            "value": "3",
+            "inv": "2"
+          }
+        ]
+      }
+    },
+    {
+      "n": "7",
+      "generalized-pocklington": {
+        "a": {
+          "int": "3",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "7",
+            "value": "3",
+            "inv": "5"
+          }
+        ]
+      }
+    },
+    {
+      "n": "11",
+      "generalized-pocklington": {
+        "a": {
+          "int": "5",
+          "factorization": [
+            {
+              "prime": "5",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "11",
+            "value": "3",
+            "inv": "4"
+          }
+        ]
+      }
+    },
+    {
+      "n": "13",
+      "generalized-pocklington": {
+        "a": {
+          "int": "12",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 2
+            },
+            {
+              "prime": "3",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "13",
+            "value": "2",
+            "inv": "7"
+          },
+          {
+            "mod": "13",
+            "value": "11",
+            "inv": "6"
+          }
+        ]
+      }
+    },
+    {
+      "n": "17",
+      "generalized-pocklington": {
+        "a": {
+          "int": "16",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 4
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "17",
+            "value": "15",
+            "inv": "8"
+          }
+        ]
+      }
+    },
+    {
+      "n": "19",
+      "generalized-pocklington": {
+        "a": {
+          "int": "9",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "19",
+            "value": "6",
+            "inv": "16"
+          }
+        ]
+      }
+    },
+    {
+      "n": "23",
+      "generalized-pocklington": {
+        "a": {
+          "int": "11",
+          "factorization": [
+            {
+              "prime": "11",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "23",
+            "value": "3",
+            "inv": "8"
+          }
+        ]
+      }
+    },
+    {
+      "n": "29",
+      "generalized-pocklington": {
+        "a": {
+          "int": "7",
+          "factorization": [
+            {
+              "prime": "7",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "29",
+            "value": "15",
+            "inv": "2"
+          }
+        ]
+      }
+    },
+    {
+      "n": "31",
+      "generalized-pocklington": {
+        "a": {
+          "int": "15",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 1
+            },
+            {
+              "prime": "5",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "31",
+            "value": "15",
+            "inv": "29"
+          },
+          {
+            "mod": "31",
+            "value": "24",
+            "inv": "22"
+          }
+        ]
+      }
+    },
+    {
+      "n": "37",
+      "generalized-pocklington": {
+        "a": {
+          "int": "9",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "37",
+            "value": "25",
+            "inv": "3"
+          }
+        ]
+      }
+    },
+    {
+      "n": "41",
+      "generalized-pocklington": {
+        "a": {
+          "int": "8",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 3
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "41",
+            "value": "39",
+            "inv": "20"
+          }
+        ]
+      }
+    },
+    {
+      "n": "43",
+      "generalized-pocklington": {
+        "a": {
+          "int": "7",
+          "factorization": [
+            {
+              "prime": "7",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "43",
+            "value": "20",
+            "inv": "28"
+          }
+        ]
+      }
+    },
+    {
+      "n": "53",
+      "generalized-pocklington": {
+        "a": {
+          "int": "13",
+          "factorization": [
+            {
+              "prime": "13",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "53",
+            "value": "15",
+            "inv": "46"
+          }
+        ]
+      }
+    },
+    {
+      "n": "59",
+      "generalized-pocklington": {
+        "a": {
+          "int": "29",
+          "factorization": [
+            {
+              "prime": "29",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "59",
+            "value": "3",
+            "inv": "20"
+          }
+        ]
+      }
+    },
+    {
+      "n": "61",
+      "generalized-pocklington": {
+        "a": {
+          "int": "15",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 1
+            },
+            {
+              "prime": "5",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "61",
+            "value": "8",
+            "inv": "23"
+          },
+          {
+            "mod": "61",
+            "value": "46",
+            "inv": "4"
+          }
+        ]
+      }
+    },
+    {
+      "n": "67",
+      "generalized-pocklington": {
+        "a": {
+          "int": "11",
+          "factorization": [
+            {
+              "prime": "11",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "67",
+            "value": "63",
+            "inv": "50"
+          }
+        ]
+      }
+    },
+    {
+      "n": "73",
+      "generalized-pocklington": {
+        "a": {
+          "int": "9",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "73",
+            "value": "63",
+            "inv": "51"
+          }
+        ]
+      }
+    },
+    {
+      "n": "79",
+      "generalized-pocklington": {
+        "a": {
+          "int": "13",
+          "factorization": [
+            {
+              "prime": "13",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "79",
+            "value": "63",
+            "inv": "74"
+          }
+        ]
+      }
+    },
+    {
+      "n": "89",
+      "generalized-pocklington": {
+        "a": {
+          "int": "11",
+          "factorization": [
+            {
+              "prime": "11",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "89",
+            "value": "77",
+            "inv": "37"
+          }
+        ]
+      }
+    },
+    {
+      "n": "97",
+      "generalized-pocklington": {
+        "a": {
+          "int": "96",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 5
+            },
+            {
+              "prime": "3",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "5",
+        "inverses": [
+          {
+            "mod": "97",
+            "value": "34",
+            "inv": "20"
+          },
+          {
+            "mod": "97",
+            "value": "95",
+            "inv": "48"
+          }
+        ]
+      }
+    },
+    {
+      "n": "101",
+      "generalized-pocklington": {
+        "a": {
+          "int": "25",
+          "factorization": [
+            {
+              "prime": "5",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "101",
+            "value": "94",
+            "inv": "72"
+          }
+        ]
+      }
+    },
+    {
+      "n": "103",
+      "generalized-pocklington": {
+        "a": {
+          "int": "17",
+          "factorization": [
+            {
+              "prime": "17",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "103",
+            "value": "63",
+            "inv": "18"
+          }
+        ]
+      }
+    },
+    {
+      "n": "107",
+      "generalized-pocklington": {
+        "a": {
+          "int": "53",
+          "factorization": [
+            {
+              "prime": "53",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "107",
+            "value": "3",
+            "inv": "36"
+          }
+        ]
+      }
+    },
+    {
+      "n": "113",
+      "generalized-pocklington": {
+        "a": {
+          "int": "112",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 4
+            },
+            {
+              "prime": "7",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "113",
+            "value": "48",
+            "inv": "73"
+          },
+          {
+            "mod": "113",
+            "value": "111",
+            "inv": "56"
+          }
+        ]
+      }
+    },
+    {
+      "n": "131",
+      "generalized-pocklington": {
+        "a": {
+          "int": "13",
+          "factorization": [
+            {
+              "prime": "13",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "131",
+            "value": "106",
+            "inv": "110"
+          }
+        ]
+      }
+    },
+    {
+      "n": "157",
+      "generalized-pocklington": {
+        "a": {
+          "int": "13",
+          "factorization": [
+            {
+              "prime": "13",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "157",
+            "value": "13",
+            "inv": "145"
+          }
+        ]
+      }
+    },
+    {
+      "n": "163",
+      "generalized-pocklington": {
+        "a": {
+          "int": "81",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 4
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "163",
+            "value": "103",
+            "inv": "19"
+          }
+        ]
+      }
+    },
+    {
+      "n": "173",
+      "generalized-pocklington": {
+        "a": {
+          "int": "43",
+          "factorization": [
+            {
+              "prime": "43",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "173",
+            "value": "15",
+            "inv": "150"
+          }
+        ]
+      }
+    },
+    {
+      "n": "179",
+      "generalized-pocklington": {
+        "a": {
+          "int": "89",
+          "factorization": [
+            {
+              "prime": "89",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "179",
+            "value": "3",
+            "inv": "60"
+          }
+        ]
+      }
+    },
+    {
+      "n": "181",
+      "generalized-pocklington": {
+        "a": {
+          "int": "45",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 2
+            },
+            {
+              "prime": "5",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "181",
+            "value": "58",
+            "inv": "103"
+          },
+          {
+            "mod": "181",
+            "value": "47",
+            "inv": "104"
+          }
+        ]
+      }
+    },
+    {
+      "n": "191",
+      "generalized-pocklington": {
+        "a": {
+          "int": "19",
+          "factorization": [
+            {
+              "prime": "19",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "191",
+            "value": "68",
+            "inv": "59"
+          }
+        ]
+      }
+    },
+    {
+      "n": "197",
+      "generalized-pocklington": {
+        "a": {
+          "int": "49",
+          "factorization": [
+            {
+              "prime": "7",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "197",
+            "value": "103",
+            "inv": "44"
+          }
+        ]
+      }
+    },
+    {
+      "n": "199",
+      "generalized-pocklington": {
+        "a": {
+          "int": "99",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 2
+            },
+            {
+              "prime": "11",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "199",
+            "value": "60",
+            "inv": "136"
+          },
+          {
+            "mod": "199",
+            "value": "105",
+            "inv": "163"
+          }
+        ]
+      }
+    },
+    {
+      "n": "227",
+      "generalized-pocklington": {
+        "a": {
+          "int": "113",
+          "factorization": [
+            {
+              "prime": "113",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "227",
+            "value": "3",
+            "inv": "76"
+          }
+        ]
+      }
+    },
+    {
+      "n": "229",
+      "generalized-pocklington": {
+        "a": {
+          "int": "19",
+          "factorization": [
+            {
+              "prime": "19",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "229",
+            "value": "202",
+            "inv": "212"
+          }
+        ]
+      }
+    },
+    {
+      "n": "269",
+      "generalized-pocklington": {
+        "a": {
+          "int": "67",
+          "factorization": [
+            {
+              "prime": "67",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "269",
+            "value": "15",
+            "inv": "18"
+          }
+        ]
+      }
+    },
+    {
+      "n": "281",
+      "generalized-pocklington": {
+        "a": {
+          "int": "35",
+          "factorization": [
+            {
+              "prime": "5",
+              "exponent": 1
+            },
+            {
+              "prime": "7",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "281",
+            "value": "248",
+            "inv": "17"
+          },
+          {
+            "mod": "281",
+            "value": "231",
+            "inv": "118"
+          }
+        ]
+      }
+    },
+    {
+      "n": "313",
+      "generalized-pocklington": {
+        "a": {
+          "int": "39",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 1
+            },
+            {
+              "prime": "13",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "313",
+            "value": "102",
+            "inv": "89"
+          },
+          {
+            "mod": "313",
+            "value": "213",
+            "inv": "241"
+          }
+        ]
+      }
+    },
+    {
+      "n": "349",
+      "generalized-pocklington": {
+        "a": {
+          "int": "29",
+          "factorization": [
+            {
+              "prime": "29",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "349",
+            "value": "256",
+            "inv": "15"
+          }
+        ]
+      }
+    },
+    {
+      "n": "359",
+      "generalized-pocklington": {
+        "a": {
+          "int": "179",
+          "factorization": [
+            {
+              "prime": "179",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "359",
+            "value": "3",
+            "inv": "120"
+          }
+        ]
+      }
+    },
+    {
+      "n": "383",
+      "generalized-pocklington": {
+        "a": {
+          "int": "191",
+          "factorization": [
+            {
+              "prime": "191",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "383",
+            "value": "3",
+            "inv": "128"
+          }
+        ]
+      }
+    },
+    {
+      "n": "397",
+      "generalized-pocklington": {
+        "a": {
+          "int": "44",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 2
+            },
+            {
+              "prime": "11",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "397",
+            "value": "289",
+            "inv": "136"
+          },
+          {
+            "mod": "397",
+            "value": "395",
+            "inv": "198"
+          }
+        ]
+      }
+    },
+    {
+      "n": "401",
+      "generalized-pocklington": {
+        "a": {
+          "int": "25",
+          "factorization": [
+            {
+              "prime": "5",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "401",
+            "value": "71",
+            "inv": "305"
+          }
+        ]
+      }
+    },
+    {
+      "n": "419",
+      "generalized-pocklington": {
+        "a": {
+          "int": "209",
+          "factorization": [
+            {
+              "prime": "11",
+              "exponent": 1
+            },
+            {
+              "prime": "19",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "419",
+            "value": "113",
+            "inv": "89"
+          },
+          {
+            "mod": "419",
+            "value": "333",
+            "inv": "190"
+          }
+        ]
+      }
+    },
+    {
+      "n": "541",
+      "generalized-pocklington": {
+        "a": {
+          "int": "135",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 3
+            },
+            {
+              "prime": "5",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "541",
+            "value": "47",
+            "inv": "518"
+          },
+          {
+            "mod": "541",
+            "value": "128",
+            "inv": "317"
+          }
+        ]
+      }
+    },
+    {
+      "n": "607",
+      "generalized-pocklington": {
+        "a": {
+          "int": "101",
+          "factorization": [
+            {
+              "prime": "101",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "607",
+            "value": "63",
+            "inv": "106"
+          }
+        ]
+      }
+    },
+    {
+      "n": "631",
+      "generalized-pocklington": {
+        "a": {
+          "int": "45",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 2
+            },
+            {
+              "prime": "5",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "631",
+            "value": "227",
+            "inv": "467"
+          },
+          {
+            "mod": "631",
+            "value": "42",
+            "inv": "616"
+          }
+        ]
+      }
+    },
+    {
+      "n": "641",
+      "generalized-pocklington": {
+        "a": {
+          "int": "640",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 7
+            },
+            {
+              "prime": "5",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "641",
+            "value": "356",
+            "inv": "632"
+          },
+          {
+            "mod": "641",
+            "value": "639",
+            "inv": "320"
+          }
+        ]
+      }
+    },
+    {
+      "n": "827",
+      "generalized-pocklington": {
+        "a": {
+          "int": "59",
+          "factorization": [
+            {
+              "prime": "59",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "827",
+            "value": "670",
+            "inv": "453"
+          }
+        ]
+      }
+    },
+    {
+      "n": "883",
+      "generalized-pocklington": {
+        "a": {
+          "int": "49",
+          "factorization": [
+            {
+              "prime": "7",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "883",
+            "value": "706",
+            "inv": "439"
+          }
+        ]
+      }
+    },
+    {
+      "n": "929",
+      "generalized-pocklington": {
+        "a": {
+          "int": "928",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 5
+            },
+            {
+              "prime": "29",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "929",
+            "value": "346",
+            "inv": "733"
+          },
+          {
+            "mod": "929",
+            "value": "927",
+            "inv": "464"
+          }
+        ]
+      }
+    },
+    {
+      "n": "937",
+      "generalized-pocklington": {
+        "a": {
+          "int": "117",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 2
+            },
+            {
+              "prime": "13",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "937",
+            "value": "155",
+            "inv": "133"
+          },
+          {
+            "mod": "937",
+            "value": "613",
+            "inv": "107"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1013",
+      "generalized-pocklington": {
+        "a": {
+          "int": "92",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 2
+            },
+            {
+              "prime": "23",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1013",
+            "value": "252",
+            "inv": "607"
+          },
+          {
+            "mod": "1013",
+            "value": "1011",
+            "inv": "506"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1069",
+      "generalized-pocklington": {
+        "a": {
+          "int": "89",
+          "factorization": [
+            {
+              "prime": "89",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1069",
+            "value": "888",
+            "inv": "880"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1597",
+      "generalized-pocklington": {
+        "a": {
+          "int": "133",
+          "factorization": [
+            {
+              "prime": "7",
+              "exponent": 1
+            },
+            {
+              "prime": "19",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1597",
+            "value": "2",
+            "inv": "799"
+          },
+          {
+            "mod": "1597",
+            "value": "318",
+            "inv": "1140"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1621",
+      "generalized-pocklington": {
+        "a": {
+          "int": "405",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 4
+            },
+            {
+              "prime": "5",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1621",
+            "value": "1488",
+            "inv": "195"
+          },
+          {
+            "mod": "1621",
+            "value": "1435",
+            "inv": "61"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1999",
+      "generalized-pocklington": {
+        "a": {
+          "int": "999",
+          "factorization": [
+            {
+              "prime": "3",
+              "exponent": 3
+            },
+            {
+              "prime": "37",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "1999",
+            "value": "1308",
+            "inv": "81"
+          },
+          {
+            "mod": "1999",
+            "value": "807",
+            "inv": "1729"
+          }
+        ]
+      }
+    },
+    {
+      "n": "2383",
+      "generalized-pocklington": {
+        "a": {
+          "int": "397",
+          "factorization": [
+            {
+              "prime": "397",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "2383",
+            "value": "63",
+            "inv": "870"
+          }
+        ]
+      }
+    },
+    {
+      "n": "3137",
+      "generalized-pocklington": {
+        "a": {
+          "int": "3136",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 6
+            },
+            {
+              "prime": "7",
+              "exponent": 2
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "3137",
+            "value": "2662",
+            "inv": "317"
+          },
+          {
+            "mod": "3137",
+            "value": "3135",
+            "inv": "1568"
+          }
+        ]
+      }
+    },
+    {
+      "n": "3329",
+      "generalized-pocklington": {
+        "a": {
+          "int": "3328",
+          "factorization": [
+            {
+              "prime": "2",
+              "exponent": 8
+            },
+            {
+              "prime": "13",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "3329",
+            "value": "2969",
+            "inv": "823"
+          },
+          {
+            "mod": "3329",
+            "value": "3327",
+            "inv": "1664"
+          }
+        ]
+      }
+    },
+    {
+      "n": "3491",
+      "generalized-pocklington": {
+        "a": {
+          "int": "349",
+          "factorization": [
+            {
+              "prime": "349",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "3491",
+            "value": "1023",
+            "inv": "3218"
+          }
+        ]
+      }
+    },
+    {
+      "n": "3583",
+      "generalized-pocklington": {
+        "a": {
+          "int": "199",
+          "factorization": [
+            {
+              "prime": "199",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "3583",
+            "value": "584",
+            "inv": "2313"
+          }
+        ]
+      }
+    },
+    {
+      "n": "4013",
+      "generalized-pocklington": {
+        "a": {
+          "int": "1003",
+          "factorization": [
+            {
+              "prime": "17",
+              "exponent": 1
+            },
+            {
+              "prime": "59",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "4013",
+            "value": "3465",
+            "inv": "1179"
+          },
+          {
+            "mod": "4013",
+            "value": "4002",
+            "inv": "1824"
+          }
+        ]
+      }
+    },
+    {
+      "n": "4657",
+      "generalized-pocklington": {
+        "a": {
+          "int": "97",
+          "factorization": [
+            {
+              "prime": "97",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "4657",
+            "value": "3284",
+            "inv": "2744"
+          }
+        ]
+      }
+    },
+    {
+      "n": "5623",
+      "generalized-pocklington": {
+        "a": {
+          "int": "937",
+          "factorization": [
+            {
+              "prime": "937",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "5623",
+            "value": "63",
+            "inv": "5266"
+          }
+        ]
+      }
+    },
+    {
+      "n": "5779",
+      "generalized-pocklington": {
+        "a": {
+          "int": "107",
+          "factorization": [
+            {
+              "prime": "107",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "5779",
+            "value": "2943",
+            "inv": "5671"
+          }
+        ]
+      }
+    },
+    {
+      "n": "6521",
+      "generalized-pocklington": {
+        "a": {
+          "int": "163",
+          "factorization": [
+            {
+              "prime": "163",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "6521",
+            "value": "1043",
+            "inv": "3620"
+          }
+        ]
+      }
+    },
+    {
+      "n": "9533",
+      "generalized-pocklington": {
+        "a": {
+          "int": "2383",
+          "factorization": [
+            {
+              "prime": "2383",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "9533",
+            "value": "15",
+            "inv": "8262"
+          }
+        ]
+      }
+    },
+    {
+      "n": "9719",
+      "generalized-pocklington": {
+        "a": {
+          "int": "113",
+          "factorization": [
+            {
+              "prime": "113",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "3",
+        "inverses": [
+          {
+            "mod": "9719",
+            "value": "168",
+            "inv": "7000"
+          }
+        ]
+      }
+    },
+    {
+      "n": "13043",
+      "generalized-pocklington": {
+        "a": {
+          "int": "6521",
+          "factorization": [
+            {
+              "prime": "6521",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "13043",
+            "value": "3",
+            "inv": "4348"
+          }
+        ]
+      }
+    },
+    {
+      "n": "16843",
+      "generalized-pocklington": {
+        "a": {
+          "int": "401",
+          "factorization": [
+            {
+              "prime": "401",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "16843",
+            "value": "9926",
+            "inv": "13658"
+          }
+        ]
+      }
+    },
+    {
+      "n": "16903",
+      "generalized-pocklington": {
+        "a": {
+          "int": "313",
+          "factorization": [
+            {
+              "prime": "313",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "16903",
+            "value": "12266",
+            "inv": "1418"
+          }
+        ]
+      }
+    },
+    {
+      "n": "17923",
+      "generalized-pocklington": {
+        "a": {
+          "int": "2987",
+          "factorization": [
+            {
+              "prime": "29",
+              "exponent": 1
+            },
+            {
+              "prime": "103",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "17923",
+            "value": "8786",
+            "inv": "1634"
+          },
+          {
+            "mod": "17923",
+            "value": "5957",
+            "inv": "3102"
+          }
+        ]
+      }
+    },
+    {
+      "n": "25969",
+      "generalized-pocklington": {
+        "a": {
+          "int": "541",
+          "factorization": [
+            {
+              "prime": "541",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "25969",
+            "value": "10392",
+            "inv": "22428"
+          }
+        ]
+      }
+    },
+    {
+      "n": "29179",
+      "generalized-pocklington": {
+        "a": {
+          "int": "1621",
+          "factorization": [
+            {
+              "prime": "1621",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "29179",
+            "value": "28711",
+            "inv": "23630"
+          }
+        ]
+      }
+    },
+    {
+      "n": "62383",
+      "generalized-pocklington": {
+        "a": {
+          "int": "281",
+          "factorization": [
+            {
+              "prime": "281",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "62383",
+            "value": "17735",
+            "inv": "55552"
+          }
+        ]
+      }
+    },
+    {
+      "n": "71693",
+      "generalized-pocklington": {
+        "a": {
+          "int": "17923",
+          "factorization": [
+            {
+              "prime": "17923",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "71693",
+            "value": "15",
+            "inv": "62134"
+          }
+        ]
+      }
+    },
+    {
+      "n": "101977",
+      "generalized-pocklington": {
+        "a": {
+          "int": "607",
+          "factorization": [
+            {
+              "prime": "607",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "101977",
+            "value": "377",
+            "inv": "68165"
+          }
+        ]
+      }
+    },
+    {
+      "n": "103393",
+      "generalized-pocklington": {
+        "a": {
+          "int": "359",
+          "factorization": [
+            {
+              "prime": "359",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "103393",
+            "value": "55998",
+            "inv": "32269"
+          }
+        ]
+      }
+    },
+    {
+      "n": "127139",
+      "generalized-pocklington": {
+        "a": {
+          "int": "5779",
+          "factorization": [
+            {
+              "prime": "5779",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "127139",
+            "value": "125855",
+            "inv": "33171"
+          }
+        ]
+      }
+    },
+    {
+      "n": "140977",
+      "generalized-pocklington": {
+        "a": {
+          "int": "979",
+          "factorization": [
+            {
+              "prime": "11",
+              "exponent": 1
+            },
+            {
+              "prime": "89",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "140977",
+            "value": "71723",
+            "inv": "116710"
+          },
+          {
+            "mod": "140977",
+            "value": "57131",
+            "inv": "55309"
+          }
+        ]
+      }
+    },
+    {
+      "n": "159793",
+      "generalized-pocklington": {
+        "a": {
+          "int": "3329",
+          "factorization": [
+            {
+              "prime": "3329",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "159793",
+            "value": "141642",
+            "inv": "27379"
+          }
+        ]
+      }
+    },
+    {
+      "n": "249533",
+      "generalized-pocklington": {
+        "a": {
+          "int": "62383",
+          "factorization": [
+            {
+              "prime": "62383",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "249533",
+            "value": "15",
+            "inv": "216262"
+          }
+        ]
+      }
+    },
+    {
+      "n": "260441",
+      "generalized-pocklington": {
+        "a": {
+          "int": "6511",
+          "factorization": [
+            {
+              "prime": "17",
+              "exponent": 1
+            },
+            {
+              "prime": "383",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "260441",
+            "value": "201106",
+            "inv": "44600"
+          },
+          {
+            "mod": "260441",
+            "value": "234875",
+            "inv": "11603"
+          }
+        ]
+      }
+    },
+    {
+      "n": "499067",
+      "generalized-pocklington": {
+        "a": {
+          "int": "249533",
+          "factorization": [
+            {
+              "prime": "249533",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "499067",
+            "value": "3",
+            "inv": "166356"
+          }
+        ]
+      }
+    },
+    {
+      "n": "709927",
+      "generalized-pocklington": {
+        "a": {
+          "int": "16903",
+          "factorization": [
+            {
+              "prime": "16903",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "709927",
+            "value": "471067",
+            "inv": "242120"
+          }
+        ]
+      }
+    },
+    {
+      "n": "752881",
+      "generalized-pocklington": {
+        "a": {
+          "int": "3137",
+          "factorization": [
+            {
+              "prime": "3137",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "752881",
+            "value": "734443",
+            "inv": "156840"
+          }
+        ]
+      }
+    },
+    {
+      "n": "767617",
+      "generalized-pocklington": {
+        "a": {
+          "int": "1999",
+          "factorization": [
+            {
+              "prime": "1999",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "767617",
+            "value": "425880",
+            "inv": "92441"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1019771",
+      "generalized-pocklington": {
+        "a": {
+          "int": "101977",
+          "factorization": [
+            {
+              "prime": "101977",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1019771",
+            "value": "1023",
+            "inv": "210334"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1033337",
+      "generalized-pocklington": {
+        "a": {
+          "int": "3491",
+          "factorization": [
+            {
+              "prime": "3491",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1033337",
+            "value": "785315",
+            "inv": "127210"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1302347",
+      "generalized-pocklington": {
+        "a": {
+          "int": "9719",
+          "factorization": [
+            {
+              "prime": "9719",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1302347",
+            "value": "955797",
+            "inv": "407495"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1545857",
+      "generalized-pocklington": {
+        "a": {
+          "int": "12077",
+          "factorization": [
+            {
+              "prime": "13",
+              "exponent": 1
+            },
+            {
+              "prime": "929",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1545857",
+            "value": "1293945",
+            "inv": "82137"
+          },
+          {
+            "mod": "1545857",
+            "value": "681680",
+            "inv": "288"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1562647",
+      "generalized-pocklington": {
+        "a": {
+          "int": "260441",
+          "factorization": [
+            {
+              "prime": "260441",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1562647",
+            "value": "63",
+            "inv": "942549"
+          }
+        ]
+      }
+    },
+    {
+      "n": "2749283",
+      "generalized-pocklington": {
+        "a": {
+          "int": "59767",
+          "factorization": [
+            {
+              "prime": "59",
+              "exponent": 1
+            },
+            {
+              "prime": "1013",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "2749283",
+            "value": "2192408",
+            "inv": "1111794"
+          },
+          {
+            "mod": "2749283",
+            "value": "2489823",
+            "inv": "1578692"
+          }
+        ]
+      }
+    },
+    {
+      "n": "3736981",
+      "generalized-pocklington": {
+        "a": {
+          "int": "20761",
+          "factorization": [
+            {
+              "prime": "13",
+              "exponent": 1
+            },
+            {
+              "prime": "1597",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "3736981",
+            "value": "2483303",
+            "inv": "960463"
+          },
+          {
+            "mod": "3736981",
+            "value": "409531",
+            "inv": "351715"
+          }
+        ]
+      }
+    },
+    {
+      "n": "11799461",
+      "generalized-pocklington": {
+        "a": {
+          "int": "25651",
+          "factorization": [
+            {
+              "prime": "113",
+              "exponent": 1
+            },
+            {
+              "prime": "227",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "11799461",
+            "value": "10183703",
+            "inv": "317399"
+          },
+          {
+            "mod": "11799461",
+            "value": "1872389",
+            "inv": "4199685"
+          }
+        ]
+      }
+    },
+    {
+      "n": "15698303",
+      "generalized-pocklington": {
+        "a": {
+          "int": "29179",
+          "factorization": [
+            {
+              "prime": "29179",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "15698303",
+            "value": "690112",
+            "inv": "276632"
+          }
+        ]
+      }
+    },
+    {
+      "n": "46879411",
+      "generalized-pocklington": {
+        "a": {
+          "int": "1562647",
+          "factorization": [
+            {
+              "prime": "1562647",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "46879411",
+            "value": "42394781",
+            "inv": "44942311"
+          }
+        ]
+      }
+    },
+    {
+      "n": "54897371",
+      "generalized-pocklington": {
+        "a": {
+          "int": "499067",
+          "factorization": [
+            {
+              "prime": "499067",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "54897371",
+            "value": "10220583",
+            "inv": "8727416"
+          }
+        ]
+      }
+    },
+    {
+      "n": "65982793",
+      "generalized-pocklington": {
+        "a": {
+          "int": "2749283",
+          "factorization": [
+            {
+              "prime": "2749283",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "65982793",
+            "value": "16777215",
+            "inv": "32308316"
+          }
+        ]
+      }
+    },
+    {
+      "n": "281276467",
+      "generalized-pocklington": {
+        "a": {
+          "int": "46879411",
+          "factorization": [
+            {
+              "prime": "46879411",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "281276467",
+            "value": "63",
+            "inv": "102688234"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1389386771",
+      "generalized-pocklington": {
+        "a": {
+          "int": "767617",
+          "factorization": [
+            {
+              "prime": "767617",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1389386771",
+            "value": "494935008",
+            "inv": "1058683819"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1687658803",
+      "generalized-pocklington": {
+        "a": {
+          "int": "281276467",
+          "factorization": [
+            {
+              "prime": "281276467",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1687658803",
+            "value": "63",
+            "inv": "857223519"
+          }
+        ]
+      }
+    },
+    {
+      "n": "3572919677",
+      "generalized-pocklington": {
+        "a": {
+          "int": "358871",
+          "factorization": [
+            {
+              "prime": "383",
+              "exponent": 1
+            },
+            {
+              "prime": "937",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "3572919677",
+            "value": "690486337",
+            "inv": "2565679398"
+          },
+          {
+            "mod": "3572919677",
+            "value": "1168562122",
+            "inv": "602762945"
+          }
+        ]
+      }
+    },
+    {
+      "n": "5994341377",
+      "generalized-pocklington": {
+        "a": {
+          "int": "1951283",
+          "factorization": [
+            {
+              "prime": "419",
+              "exponent": 1
+            },
+            {
+              "prime": "4657",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "5994341377",
+            "value": "3974926620",
+            "inv": "783419215"
+          },
+          {
+            "mod": "5994341377",
+            "value": "1263804740",
+            "inv": "4284275874"
+          }
+        ]
+      }
+    },
+    {
+      "n": "8336320627",
+      "generalized-pocklington": {
+        "a": {
+          "int": "1389386771",
+          "factorization": [
+            {
+              "prime": "1389386771",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "8336320627",
+            "value": "63",
+            "inv": "1455548046"
+          }
+        ]
+      }
+    },
+    {
+      "n": "23580350111",
+      "generalized-pocklington": {
+        "a": {
+          "int": "3736981",
+          "factorization": [
+            {
+              "prime": "3736981",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "23580350111",
+            "value": "8915777965",
+            "inv": "12360420495"
+          }
+        ]
+      }
+    },
+    {
+      "n": "128262069029",
+      "generalized-pocklington": {
+        "a": {
+          "int": "1687658803",
+          "factorization": [
+            {
+              "prime": "1687658803",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "128262069029",
+            "value": "2663518125",
+            "inv": "100001539811"
+          }
+        ]
+      }
+    },
+    {
+      "n": "188642800889",
+      "generalized-pocklington": {
+        "a": {
+          "int": "23580350111",
+          "factorization": [
+            {
+              "prime": "23580350111",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "188642800889",
+            "value": "255",
+            "inv": "34029681729"
+          }
+        ]
+      }
+    },
+    {
+      "n": "983685833987",
+      "generalized-pocklington": {
+        "a": {
+          "int": "8336320627",
+          "factorization": [
+            {
+              "prime": "8336320627",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "983685833987",
+            "value": "950236973967",
+            "inv": "137188557913"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1176035613847",
+      "generalized-pocklington": {
+        "a": {
+          "int": "2685012817",
+          "factorization": [
+            {
+              "prime": "25969",
+              "exponent": 1
+            },
+            {
+              "prime": "103393",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1176035613847",
+            "value": "675688275371",
+            "inv": "1034661117117"
+          },
+          {
+            "mod": "1176035613847",
+            "value": "901972567670",
+            "inv": "254810059669"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1740482054401",
+      "generalized-pocklington": {
+        "a": {
+          "int": "3941309",
+          "factorization": [
+            {
+              "prime": "31",
+              "exponent": 1
+            },
+            {
+              "prime": "127139",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1740482054401",
+            "value": "1394778125770",
+            "inv": "931889182908"
+          },
+          {
+            "mod": "1740482054401",
+            "value": "728278689886",
+            "inv": "762457334809"
+          }
+        ]
+      }
+    },
+    {
+      "n": "16446708426521",
+      "generalized-pocklington": {
+        "a": {
+          "int": "3991919521",
+          "factorization": [
+            {
+              "prime": "5623",
+              "exponent": 1
+            },
+            {
+              "prime": "709927",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "16446708426521",
+            "value": "10217411517563",
+            "inv": "6434305701839"
+          },
+          {
+            "mod": "16446708426521",
+            "value": "3854076456948",
+            "inv": "3421417553134"
+          }
+        ]
+      }
+    },
+    {
+      "n": "298908837206431",
+      "generalized-pocklington": {
+        "a": {
+          "int": "118202317",
+          "factorization": [
+            {
+              "prime": "157",
+              "exponent": 1
+            },
+            {
+              "prime": "752881",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "298908837206431",
+            "value": "195401171245607",
+            "inv": "48391663153048"
+          },
+          {
+            "mod": "298908837206431",
+            "value": "39253511115524",
+            "inv": "66705492092546"
+          }
+        ]
+      }
+    },
+    {
+      "n": "14334859726775219",
+      "generalized-pocklington": {
+        "a": {
+          "int": "170818717",
+          "factorization": [
+            {
+              "prime": "1069",
+              "exponent": 1
+            },
+            {
+              "prime": "159793",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "14334859726775219",
+            "value": "9287525273032969",
+            "inv": "4642206447786117"
+          },
+          {
+            "mod": "14334859726775219",
+            "value": "12988821837051968",
+            "inv": "9815674160228739"
+          }
+        ]
+      }
+    },
+    {
+      "n": "22009001472962227",
+      "generalized-pocklington": {
+        "a": {
+          "int": "128262069029",
+          "factorization": [
+            {
+              "prime": "128262069029",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "22009001472962227",
+            "value": "10683752564916910",
+            "inv": "390336835632271"
+          }
+        ]
+      }
+    },
+    {
+      "n": "101148471075752777",
+      "generalized-pocklington": {
+        "a": {
+          "int": "1176035613847",
+          "factorization": [
+            {
+              "prime": "1176035613847",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "101148471075752777",
+            "value": "2655626225930651",
+            "inv": "48147718573863262"
+          }
+        ]
+      }
+    },
+    {
+      "n": "6848045079628454069",
+      "generalized-pocklington": {
+        "a": {
+          "int": "716026409953",
+          "factorization": [
+            {
+              "prime": "13043",
+              "exponent": 1
+            },
+            {
+              "prime": "54897371",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "6848045079628454069",
+            "value": "4400235364529464752",
+            "inv": "5578272510406967279"
+          },
+          {
+            "mod": "6848045079628454069",
+            "value": "300628652347401897",
+            "inv": "4396050372818733173"
+          }
+        ]
+      }
+    },
+    {
+      "n": "352576608953991537322303",
+      "generalized-pocklington": {
+        "a": {
+          "int": "16446708426521",
+          "factorization": [
+            {
+              "prime": "16446708426521",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "352576608953991537322303",
+            "value": "250478389233923669204206",
+            "inv": "220586105970312567109739"
+          }
+        ]
+      }
+    },
+    {
+      "n": "11711184643015782903697616449",
+      "generalized-pocklington": {
+        "a": {
+          "int": "352576608953991537322303",
+          "factorization": [
+            {
+              "prime": "352576608953991537322303",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "11711184643015782903697616449",
+            "value": "313246917351246334821809670",
+            "inv": "11302977211897168811983564210"
+          }
+        ]
+      }
+    },
+    {
+      "n": "49603261419390422248082736481",
+      "generalized-pocklington": {
+        "a": {
+          "int": "2225883372020520829",
+          "factorization": [
+            {
+              "prime": "11799461",
+              "exponent": 1
+            },
+            {
+              "prime": "188642800889",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "49603261419390422248082736481",
+            "value": "22369571355841450008810717338",
+            "inv": "37353789587814669127920530490"
+          },
+          {
+            "mod": "49603261419390422248082736481",
+            "value": "30004165016407962499294149411",
+            "inv": "17981385831873780732865201666"
+          }
+        ]
+      }
+    },
+    {
+      "n": "1254043595354617963043866617659",
+      "generalized-pocklington": {
+        "a": {
+          "int": "14334859726775219",
+          "factorization": [
+            {
+              "prime": "14334859726775219",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "1254043595354617963043866617659",
+            "value": "648270687468679223755191115104",
+            "inv": "481001945969039870230636624587"
+          }
+        ]
+      }
+    },
+    {
+      "n": "16798108731015832284940804142231733909759579603404752749028378864165570215949",
+      "generalized-pocklington": {
+        "a": {
+          "int": "126844592332459594578198224778805718494266489043",
+          "factorization": [
+            {
+              "prime": "101148471075752777",
+              "exponent": 1
+            },
+            {
+              "prime": "1254043595354617963043866617659",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "16798108731015832284940804142231733909759579603404752749028378864165570215949",
+            "value": "5991785192639272703656031650832898593729272639365829891762926024204243701911",
+            "inv": "16441383361602209521167148029114335627594786737420330521198003941761943890955"
+          },
+          {
+            "mod": "16798108731015832284940804142231733909759579603404752749028378864165570215949",
+            "value": "16352997049317084895759041701333328283831847277990557897891046155387331160929",
+            "inv": "11019659027902970438824459661719092709190951496801967454838112014853397798134"
+          }
+        ]
+      }
+    },
+    {
+      "n": "16798108731015832284940804142231733909889187121439069848933715426072753864723",
+      "generalized-pocklington": {
+        "a": {
+          "int": "903458945536462002984854468848404744666359951",
+          "factorization": [
+            {
+              "prime": "5994341377",
+              "exponent": 1
+            },
+            {
+              "prime": "22009001472962227",
+              "exponent": 1
+            },
+            {
+              "prime": "6848045079628454069",
+              "exponent": 1
+            }
+          ]
+        },
+        "base": "2",
+        "inverses": [
+          {
+            "mod": "16798108731015832284940804142231733909889187121439069848933715426072753864723",
+            "value": "16521842437961505898710990902833880924849150585584906656366025346881141042259",
+            "inv": "11985787876290460227198933126908224587881498263859449382771170440525233226878"
+          },
+          {
+            "mod": "16798108731015832284940804142231733909889187121439069848933715426072753864723",
+            "value": "6755588363956041378442974365864851885324174617422342952603465071600157786051",
+            "inv": "7377093323232477171301883453764046664347129354890304681775162144004171603039"
+          },
+          {
+            "mod": "16798108731015832284940804142231733909889187121439069848933715426072753864723",
+            "value": "8888895559417958147411710926872809671745478045445470883112427172389112170352",
+            "inv": "10761161162861837785154613100997120888244418539069120998154370602302557031813"
+          }
+        ]
+      }
+    }
+  ]
+}

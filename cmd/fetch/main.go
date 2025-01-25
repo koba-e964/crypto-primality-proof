@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"log"
 	"os"
 
 	"github.com/koba-e964/crypto-primality-proof/scrape"
@@ -9,17 +10,28 @@ import (
 
 func main() {
 	urlBase := "https://safecurves.cr.yp.to"
-	result, err := scrape.ReadPrimeProofsPage(urlBase, "Curve25519")
-	if err != nil {
-		panic(err)
+	curveNames := []string{
+		"Curve25519",
+		"NIST P-256",
+		"secp256k1",
+		"Ed448-Goldilocks",
+		"BN(2,254)",
 	}
-	reg, err := result.Translate()
-	if err != nil {
-		panic(err)
+	for _, curveName := range curveNames {
+		result, err := scrape.ReadPrimeProofsPage(urlBase, curveName)
+		if err != nil {
+			panic(err)
+		}
+		reg, err := result.Translate()
+		if err != nil {
+			panic(err)
+		}
+		jsonString, err := json.MarshalIndent(reg, "", "  ")
+		if err != nil {
+			panic(err)
+		}
+		jsonString = append(jsonString, '\n')
+		os.WriteFile(curveName+".json", jsonString, 0o644)
+		log.Println("wrote", curveName+".json")
 	}
-	jsonString, err := json.MarshalIndent(reg, "", "  ")
-	if err != nil {
-		panic(err)
-	}
-	os.WriteFile("Curve25519.json", jsonString, 0o644)
 }
